@@ -1,0 +1,92 @@
+#include <windows.h>
+#include <commctrl.h>
+#include "resource.h"
+
+IDI_APP ICON "cybertalk.ico"
+
+IDD_MAIN DIALOGEX 0, 0, 420, 372
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_MINIMIZEBOX
+CAPTION "CyberTalk SAPI5 Configuration"
+FONT 9, "Segoe UI", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "Custom voice", IDC_GRP_VOICE, 7, 7, 406, 130
+    LTEXT           "Voice &gender:", IDC_LBL_GENDER, 15, 22, 60, 10
+    COMBOBOX        IDC_GENDER, 80, 20, 100, 60, CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+
+    // Each row: label, slider, then a second label immediately before the spin
+    // edit so screen readers name the edit ("Pitch %"); the up-down buttons are
+    // not tab stops because the edit itself takes the arrow keys (UDS_ARROWKEYS).
+    LTEXT           "&Pitch:", IDC_LBL_PITCH, 15, 42, 60, 10
+    CONTROL         "", IDC_PITCH_SLIDER, TRACKBAR_CLASS, TBS_HORZ | TBS_AUTOTICKS | WS_TABSTOP, 80, 38, 150, 18
+    LTEXT           "Pitch % (90 Hz):", IDC_LBL_PITCH_PCT, 236, 41, 130, 10
+    EDITTEXT        IDC_PITCH_EDIT, 370, 39, 38, 13, ES_NUMBER | ES_RIGHT
+    CONTROL         "", IDC_PITCH_SPIN, UPDOWN_CLASS, UDS_ALIGNRIGHT | UDS_ARROWKEYS | UDS_SETBUDDYINT | UDS_NOTHOUSANDS, 397, 39, 11, 13
+
+    LTEXT           "&Speed:", IDC_LBL_SPEED, 15, 64, 60, 10
+    CONTROL         "", IDC_SPEED_SLIDER, TRACKBAR_CLASS, TBS_HORZ | TBS_AUTOTICKS | WS_TABSTOP, 80, 60, 150, 18
+    LTEXT           "Speed % (200 words/min):", IDC_LBL_SPEED_PCT, 236, 63, 130, 10
+    EDITTEXT        IDC_SPEED_EDIT, 370, 61, 38, 13, ES_NUMBER | ES_RIGHT
+    CONTROL         "", IDC_SPEED_SPIN, UPDOWN_CLASS, UDS_ALIGNRIGHT | UDS_ARROWKEYS | UDS_SETBUDDYINT | UDS_NOTHOUSANDS, 397, 61, 11, 13
+
+    LTEXT           "&Volume:", IDC_LBL_VOLUME, 15, 86, 60, 10
+    CONTROL         "", IDC_VOLUME_SLIDER, TRACKBAR_CLASS, TBS_HORZ | TBS_AUTOTICKS | WS_TABSTOP, 80, 82, 150, 18
+    LTEXT           "Volume % (255 of 255):", IDC_LBL_VOLUME_PCT, 236, 85, 130, 10
+    EDITTEXT        IDC_VOLUME_EDIT, 370, 83, 38, 13, ES_NUMBER | ES_RIGHT
+    CONTROL         "", IDC_VOLUME_SPIN, UPDOWN_CLASS, UDS_ALIGNRIGHT | UDS_ARROWKEYS | UDS_SETBUDDYINT | UDS_NOTHOUSANDS, 397, 83, 11, 13
+
+    LTEXT           "&Brightness:", IDC_LBL_BRIGHT, 15, 108, 60, 10
+    CONTROL         "", IDC_BRIGHT_SLIDER, TRACKBAR_CLASS, TBS_HORZ | TBS_AUTOTICKS | WS_TABSTOP, 80, 104, 150, 18
+    LTEXT           "Brightness % (level 8 of 15):", IDC_LBL_BRIGHT_PCT, 236, 107, 130, 10
+    EDITTEXT        IDC_BRIGHT_EDIT, 370, 105, 38, 13, ES_NUMBER | ES_RIGHT
+    CONTROL         "", IDC_BRIGHT_SPIN, UPDOWN_CLASS, UDS_ALIGNRIGHT | UDS_ARROWKEYS | UDS_SETBUDDYINT | UDS_NOTHOUSANDS, 397, 105, 11, 13
+
+    GROUPBOX        "Reading modes (custom voice)", IDC_GRP_MODES, 7, 142, 406, 62
+    CONTROL         "Read &dollar amounts as dollars and cents", IDC_DOLLAR, "Button", BS_AUTOCHECKBOX | WS_TABSTOP, 15, 156, 190, 10
+    CONTROL         "Say ""&zero"" instead of ""oh"" for the digit 0", IDC_ZERO, "Button", BS_AUTOCHECKBOX | WS_TABSTOP, 210, 156, 195, 10
+    CONTROL         "Speak &numbers with recorded number samples", IDC_NUMBERS, "Button", BS_AUTOCHECKBOX | WS_TABSTOP, 15, 172, 190, 10
+    CONTROL         "Spreadsheet or &table reading mode", IDC_SPREADSHEET, "Button", BS_AUTOCHECKBOX | WS_TABSTOP, 210, 172, 195, 10
+    CONTROL         "&List reading mode (pause after each line)", IDC_LIST, "Button", BS_AUTOCHECKBOX | WS_TABSTOP, 15, 188, 190, 10
+
+    GROUPBOX        "General", IDC_GRP_GENERAL, 7, 209, 406, 46
+    CONTROL         "Allow &faster speech than the engine's maximum (time compression)", IDC_RATEBOOST, "Button", BS_AUTOCHECKBOX | WS_TABSTOP, 15, 222, 270, 10
+    CONTROL         "Report &word boundary events", IDC_WORDEVENTS, "Button", BS_AUTOCHECKBOX | WS_TABSTOP, 290, 222, 115, 10
+    CONTROL         "Write detailed lo&g files", IDC_LOGGING, "Button", BS_AUTOCHECKBOX | WS_TABSTOP, 15, 238, 150, 10
+    PUSHBUTTON      "&Open log folder", IDC_OPENLOGS, 290, 234, 80, 14
+
+    GROUPBOX        "Test", IDC_GRP_TEST, 7, 260, 406, 78
+    LTEXT           "Test te&xt:", IDC_LBL_TEST, 15, 274, 60, 10
+    EDITTEXT        IDC_TESTTEXT, 80, 272, 325, 34, ES_MULTILINE | ES_AUTOVSCROLL | ES_WANTRETURN | WS_VSCROLL
+    PUSHBUTTON      "P&review", IDC_PREVIEW, 80, 312, 60, 14
+    PUSHBUTTON      "Sto&p", IDC_STOP, 145, 312, 60, 14
+    LTEXT           "Status:", IDC_LBL_STATUS, 215, 314, 28, 10
+    LTEXT           "", IDC_STATUS, 245, 314, 165, 10, SS_NOPREFIX
+
+    DEFPUSHBUTTON   "&Save", IDC_SAVE, 200, 348, 65, 15
+    PUSHBUTTON      "Reset to defa&ults", IDC_DEFAULTS, 270, 348, 75, 15
+    PUSHBUTTON      "&Close", IDCANCEL, 350, 348, 60, 15
+END
+
+1 VERSIONINFO
+FILEVERSION 1,0,0,0
+PRODUCTVERSION 1,0,0,0
+FILEOS 0x40004L
+FILETYPE 0x1L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "CompanyName", "CyberTalk SAPI5 project"
+            VALUE "FileDescription", "CyberTalk SAPI5 Configuration"
+            VALUE "FileVersion", "1.0.0.0"
+            VALUE "InternalName", "CyberTalkConfig"
+            VALUE "OriginalFilename", "CyberTalkConfig.exe"
+            VALUE "ProductName", "CyberTalk SAPI5"
+            VALUE "ProductVersion", "1.0.0.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END

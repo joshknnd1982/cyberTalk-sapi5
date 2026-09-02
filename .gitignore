@@ -1,0 +1,11 @@
+build/
+build_x86/
+build_x64/
+output/
+test/out/
+samples/sapi_x64/
+samples/acktest/
+*.log
+*.user
+*.suo
+.vs/

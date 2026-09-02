@@ -1,0 +1,1464 @@
+  [engine] start: launched STLTTS.EXE pid=14040 tid=14184
+  [engine] audio: QueryInterface {74B26EA1-5830-101D-...} -> E_NOINTERFACE
+  [engine] audio: QueryInterface {74B26EA1-5830-101D-...} -> E_NOINTERFACE
+  [engine] audio: QueryInterface {F546B340-C743-11CD-...} -> S_OK
+  [engine] audio: QueryInterface {2EC34DA0-C743-11CD-...} -> S_OK
+  [engine] audio: WaveFormatSet tag=1 ch=1 rate=11025 bits=16 align=2 avg=22050
+  [engine] audio: command 0x4E2
+  [engine] audio: command 0x4E8
+  [engine] audio: command 0x4EC
+  [engine] start: engine ready in 16 ms
+  [engine] clock patch: engine clock x200 (import slot 004EA3BC -> stub 02230000, real timeGetTime 73367860)
+  [engine] command GTVE(0,0) -> 0x00000000 (pitch=0 speed=0 vol=0 bright=0 gender=0 number=0 mode=0)
+  [engine] start: engine version 1.0.225
+init took 31ms, engine pid 14040
+  [engine] command GEND(0,0) -> 0x00000000 (pitch=0 speed=0 vol=0 bright=0 gender=2 number=0 mode=0)
+  [engine] command GPIT(0,0) -> 0x00000000 (pitch=90 speed=0 vol=0 bright=0 gender=2 number=0 mode=0)
+  [engine] command GSPD(0,0) -> 0x00000000 (pitch=90 speed=200 vol=0 bright=0 gender=2 number=0 mode=0)
+  [engine] command GVOL(0,0) -> 0x00000000 (pitch=90 speed=200 vol=255 bright=0 gender=2 number=0 mode=0)
+  [engine] command GBRGHT(0,0) -> 0x00000000 (pitch=90 speed=200 vol=255 bright=8 gender=2 number=0 mode=0)
+  [engine] command GNMB(0,0) -> 0x00000000 (pitch=90 speed=200 vol=255 bright=8 gender=2 number=0 mode=0)
+  [engine] command GMDE(0,0) -> 0x00000000 (pitch=90 speed=200 vol=255 bright=8 gender=2 number=0 mode=1)
+  [engine] command GMDE(1,0) -> 0x00000000 (pitch=90 speed=200 vol=255 bright=8 gender=2 number=0 mode=0)
+  [engine] command GMDE(2,0) -> 0x00000000 (pitch=90 speed=200 vol=255 bright=8 gender=2 number=0 mode=0)
+  [engine] command GMDE(3,0) -> 0x00000000 (pitch=90 speed=200 vol=255 bright=8 gender=2 number=0 mode=1)
+  [engine] command GMDE(4,0) -> 0x00000000 (pitch=90 speed=200 vol=255 bright=8 gender=2 number=0 mode=0)
+  [engine] command GMDE(5,0) -> 0x00000000 (pitch=90 speed=200 vol=255 bright=8 gender=2 number=0 mode=0)
+  [engine] command GMDE(6,0) -> 0x00000000 (pitch=90 speed=200 vol=255 bright=8 gender=2 number=0 mode=0)
+  [engine] command GTVE(0,0) -> 0x00000000 (pitch=90 speed=200 vol=255 bright=8 gender=2 number=0 mode=0)
+STATE[initial]: gender=2 pitch=90 speed=200 volume=255 bright=8 number=0 modes=[1 0 0 1 0 0 0] version=1.0.225
+=== BASIC SPEECH ===
+  [engine] audio: command 0x4E2
+  [engine] audio: command 0x4E8
+  [engine] speak: TXTDTA accepted, 100 bytes of text, result 0x00000000
+  [engine] notify: TextDataStarted ts=0
+  [engine] notify: AudioStart ts=0
+  [engine] notify: TextDataDone ts=13200 flags=0x0 bytes=151800
+  [engine] notify: AudioStop ts=163020 bytes=151800
+  [engine] speak: done in 31 ms, 151800 bytes in 14 chunks, AudioStop seen, flags 0x0
+SPEAK[01_male_default]: hr=0x00000000 total=31ms firstAudio=+0ms bytes=151800 (6.88s audio, rtf=222.1x) chunks=14 min=8800 max=11000
+   started    id=0      ts=0        bytesAt=0        (0.000s) t=+0ms
+   audiostart id=0      ts=0        bytesAt=0        (0.000s) t=+0ms
+   wordpos    id=0      ts=4400     bytesAt=11000    (0.499s) t=+0ms
+   wordpos    id=5      ts=13200    bytesAt=88000    (3.991s) t=+0ms
+   done       id=0      ts=13200    bytesAt=151800   (6.884s) t=+0ms
+   wordpos    id=7      ts=26400    bytesAt=151800   (6.884s) t=+0ms
+   wordpos    id=12     ts=30800    bytesAt=151800   (6.884s) t=+0ms
+   wordpos    id=15     ts=35200    bytesAt=151800   (6.884s) t=+0ms
+   wordpos    id=19     ts=35200    bytesAt=151800   (6.884s) t=+0ms
+   wordpos    id=29     ts=52800    bytesAt=151800   (6.884s) t=+15ms
+   wordpos    id=39     ts=66000    bytesAt=151800   (6.884s) t=+15ms
+   wordpos    id=44     ts=70400    bytesAt=151800   (6.884s) t=+15ms
+   wordpos    id=47     ts=74800    bytesAt=151800   (6.884s) t=+15ms
+   wordpos    id=54     ts=83600    bytesAt=151800   (6.884s) t=+15ms
+   wordpos    id=62     ts=96800    bytesAt=151800   (6.884s) t=+15ms
+   wordpos    id=71     ts=105820   bytesAt=151800   (6.884s) t=+15ms
+   wordpos    id=76     ts=110220   bytesAt=151800   (6.884s) t=+15ms
+   wordpos    id=80     ts=114620   bytesAt=151800   (6.884s) t=+15ms
+   wordpos    id=88     ts=123420   bytesAt=151800   (6.884s) t=+31ms
+   wordpos    id=93     ts=132220   bytesAt=151800   (6.884s) t=+31ms
+   wordpos    id=98     ts=141020   bytesAt=151800   (6.884s) t=+31ms
+   audiostop  id=0      ts=163020   bytesAt=151800   (6.884s) t=+31ms
+  [engine] audio: command 0x4EC
+   wrote C:\Users\joshk\OneDrive\dev\sapivoice\samples\probe\01_male_default.wav
+SPEAK[02_male_marks]: hr=0x00000000 total=16ms firstAudio=+0ms bytes=48180 (2.19s audio, rtf=136.6x) chunks=5 min=4180 max=11000
+   started    id=0      ts=163020   bytesAt=0        (0.000s) t=+0ms
+   audiostart id=0      ts=163020   bytesAt=0        (0.000s) t=+0ms
+   mark       id=1      ts=171820   bytesAt=11000    (0.499s) t=+0ms
+   wordpos    id=7      ts=171820   bytesAt=11000    (0.499s) t=+0ms
+   mark       id=2      ts=171820   bytesAt=11000    (0.499s) t=+0ms
+   wordpos    id=18     ts=171820   bytesAt=11000    (0.499s) t=+0ms
+   done       id=0      ts=171820   bytesAt=48180    (2.185s) t=+0ms
+   mark       id=3      ts=176220   bytesAt=48180    (2.185s) t=+0ms
+   wordpos    id=29     ts=176220   bytesAt=48180    (2.185s) t=+0ms
+   mark       id=4      ts=185020   bytesAt=48180    (2.185s) t=+0ms
+   wordpos    id=42     ts=185020   bytesAt=48180    (2.185s) t=+0ms
+   mark       id=5      ts=189420   bytesAt=48180    (2.185s) t=+0ms
+   wordpos    id=54     ts=189420   bytesAt=48180    (2.185s) t=+0ms
+   wordpos    id=58     ts=198440   bytesAt=48180    (2.185s) t=+16ms
+   audiostop  id=0      ts=216040   bytesAt=48180    (2.185s) t=+16ms
+   wrote C:\Users\joshk\OneDrive\dev\sapivoice\samples\probe\02_male_marks.wav
+SPEAK[03_male_numbers]: hr=0x00000000 total=62ms firstAudio=+0ms bytes=309100 (14.02s audio, rtf=226.1x) chunks=29 min=1100 max=11000
+   started    id=0      ts=216040   bytesAt=0        (0.000s) t=+0ms
+   audiostart id=0      ts=216040   bytesAt=0        (0.000s) t=+0ms
+   wordpos    id=0      ts=220440   bytesAt=11000    (0.499s) t=+0ms
+   wordpos    id=4      ts=220440   bytesAt=11000    (0.499s) t=+0ms
+   wordpos    id=9      ts=229240   bytesAt=132000   (5.986s) t=+0ms
+   done       id=0      ts=242440   bytesAt=309100   (14.018s) t=+0ms
+   wordpos    id=13     ts=255640   bytesAt=309100   (14.018s) t=+15ms
+   wordpos    id=15     ts=273240   bytesAt=309100   (14.018s) t=+15ms
+   wordpos    id=20     ts=277640   bytesAt=309100   (14.018s) t=+15ms
+   wordpos    id=23     ts=304260   bytesAt=309100   (14.018s) t=+15ms
+   wordpos    id=24     ts=308660   bytesAt=309100   (14.018s) t=+15ms
+   wordpos    id=28     ts=330660   bytesAt=309100   (14.018s) t=+31ms
+   wordpos    id=30     ts=343860   bytesAt=309100   (14.018s) t=+31ms
+   wordpos    id=35     ts=352660   bytesAt=309100   (14.018s) t=+31ms
+   wordpos    id=38     ts=370260   bytesAt=309100   (14.018s) t=+31ms
+   wordpos    id=40     ts=387860   bytesAt=309100   (14.018s) t=+47ms
+   wordpos    id=44     ts=387860   bytesAt=309100   (14.018s) t=+47ms
+   wordpos    id=50     ts=396880   bytesAt=309100   (14.018s) t=+47ms
+   wordpos    id=53     ts=401280   bytesAt=309100   (14.018s) t=+47ms
+   wordpos    id=54     ts=410080   bytesAt=309100   (14.018s) t=+47ms
+   wordpos    id=60     ts=449680   bytesAt=309100   (14.018s) t=+47ms
+   wordpos    id=64     ts=454080   bytesAt=309100   (14.018s) t=+47ms
+   wordpos    id=67     ts=467280   bytesAt=309100   (14.018s) t=+62ms
+   wordpos    id=74     ts=476080   bytesAt=309100   (14.018s) t=+62ms
+   wordpos    id=77     ts=480480   bytesAt=309100   (14.018s) t=+62ms
+   wordpos    id=81     ts=502700   bytesAt=309100   (14.018s) t=+62ms
+   wordpos    id=88     ts=511500   bytesAt=309100   (14.018s) t=+62ms
+   audiostop  id=0      ts=524700   bytesAt=309100   (14.018s) t=+62ms
+   wrote C:\Users\joshk\OneDrive\dev\sapivoice\samples\probe\03_male_numbers.wav
+SPEAK[04_male_punctuation]: hr=0x00000000 total=63ms firstAudio=+16ms bytes=229680 (10.42s audio, rtf=165.3x) chunks=21 min=9680 max=11000
+   started    id=0      ts=524700   bytesAt=0        (0.000s) t=+0ms
+   audiostart id=0      ts=524700   bytesAt=0        (0.000s) t=+16ms
+   wordpos    id=0      ts=529100   bytesAt=66000    (2.993s) t=+16ms
+   done       id=0      ts=533500   bytesAt=229680   (10.416s) t=+16ms
+   wordpos    id=5      ts=542300   bytesAt=229680   (10.416s) t=+16ms
+   wordpos    id=7      ts=542300   bytesAt=229680   (10.416s) t=+16ms
+   wordpos    id=12     ts=546700   bytesAt=229680   (10.416s) t=+16ms
+   wordpos    id=14     ts=564300   bytesAt=229680   (10.416s) t=+16ms
+   wordpos    id=19     ts=568700   bytesAt=229680   (10.416s) t=+16ms
+   wordpos    id=24     ts=573100   bytesAt=229680   (10.416s) t=+16ms
+   wordpos    id=28     ts=577500   bytesAt=229680   (10.416s) t=+16ms
+   wordpos    id=30     ts=595320   bytesAt=229680   (10.416s) t=+31ms
+   wordpos    id=33     ts=604120   bytesAt=229680   (10.416s) t=+31ms
+   wordpos    id=35     ts=617320   bytesAt=229680   (10.416s) t=+31ms
+   wordpos    id=38     ts=621720   bytesAt=229680   (10.416s) t=+31ms
+   wordpos    id=42     ts=634920   bytesAt=229680   (10.416s) t=+31ms
+   wordpos    id=44     ts=648120   bytesAt=229680   (10.416s) t=+31ms
+   wordpos    id=50     ts=656920   bytesAt=229680   (10.416s) t=+31ms
+   wordpos    id=53     ts=674520   bytesAt=229680   (10.416s) t=+47ms
+   wordpos    id=60     ts=683540   bytesAt=229680   (10.416s) t=+47ms
+   wordpos    id=64     ts=692340   bytesAt=229680   (10.416s) t=+47ms
+   wordpos    id=66     ts=696740   bytesAt=229680   (10.416s) t=+47ms
+   wordpos    id=70     ts=701140   bytesAt=229680   (10.416s) t=+47ms
+   wordpos    id=71     ts=705540   bytesAt=229680   (10.416s) t=+47ms
+   wordpos    id=82     ts=723140   bytesAt=229680   (10.416s) t=+47ms
+   wordpos    id=84     ts=723140   bytesAt=229680   (10.416s) t=+47ms
+   wordpos    id=88     ts=727540   bytesAt=229680   (10.416s) t=+63ms
+   wordpos    id=90     ts=727540   bytesAt=229680   (10.416s) t=+63ms
+   wordpos    id=101    ts=740740   bytesAt=229680   (10.416s) t=+63ms
+   audiostop  id=0      ts=762740   bytesAt=229680   (10.416s) t=+63ms
+   wrote C:\Users\joshk\OneDrive\dev\sapivoice\samples\probe\04_male_punctuation.wav
+SPEAK[05_male_backslash]: hr=0x00000000 total=31ms firstAudio=+0ms bytes=131340 (5.96s audio, rtf=192.1x) chunks=12 min=10340 max=11000
+   started    id=0      ts=762740   bytesAt=0        (0.000s) t=+0ms
+   audiostart id=0      ts=762740   bytesAt=0        (0.000s) t=+0ms
+   wordpos    id=0      ts=767140   bytesAt=66000    (2.993s) t=+0ms
+   wordpos    id=2      ts=767140   bytesAt=66000    (2.993s) t=+0ms
+   done       id=0      ts=771540   bytesAt=131340   (5.956s) t=+0ms
+   wordpos    id=10     ts=775940   bytesAt=131340   (5.956s) t=+0ms
+   wordpos    id=20     ts=789360   bytesAt=131340   (5.956s) t=+0ms
+   wordpos    id=21     ts=793760   bytesAt=131340   (5.956s) t=+15ms
+   wordpos    id=23     ts=793760   bytesAt=131340   (5.956s) t=+15ms
+   wordpos    id=27     ts=798160   bytesAt=131340   (5.956s) t=+15ms
+   wordpos    id=29     ts=798160   bytesAt=131340   (5.956s) t=+15ms
+   wordpos    id=34     ts=806960   bytesAt=131340   (5.956s) t=+15ms
+   wordpos    id=35     ts=811360   bytesAt=131340   (5.956s) t=+15ms
+   wordpos    id=37     ts=828960   bytesAt=131340   (5.956s) t=+15ms
+   wordpos    id=38     ts=828960   bytesAt=131340   (5.956s) t=+15ms
+   wordpos    id=45     ts=842160   bytesAt=131340   (5.956s) t=+15ms
+   wordpos    id=46     ts=842160   bytesAt=131340   (5.956s) t=+15ms
+   wordpos    id=47     ts=846560   bytesAt=131340   (5.956s) t=+15ms
+   wordpos    id=55     ts=881980   bytesAt=131340   (5.956s) t=+31ms
+   audiostop  id=0      ts=903980   bytesAt=131340   (5.956s) t=+31ms
+   wrote C:\Users\joshk\OneDrive\dev\sapivoice\samples\probe\05_male_backslash.wav
+SPEAK[06_unicode_translit]: hr=0x00000000 total=31ms firstAudio=+0ms bytes=126940 (5.76s audio, rtf=185.7x) chunks=12 min=5940 max=11000
+   started    id=0      ts=903980   bytesAt=0        (0.000s) t=+0ms
+   audiostart id=0      ts=903980   bytesAt=0        (0.000s) t=+0ms
+   wordpos    id=0      ts=908380   bytesAt=44000    (1.995s) t=+0ms
+   done       id=0      ts=912780   bytesAt=126940   (5.757s) t=+0ms
+   wordpos    id=5      ts=917180   bytesAt=126940   (5.757s) t=+0ms
+   wordpos    id=11     ts=925980   bytesAt=126940   (5.757s) t=+16ms
+   wordpos    id=18     ts=934780   bytesAt=126940   (5.757s) t=+16ms
+   wordpos    id=19     ts=939180   bytesAt=126940   (5.757s) t=+16ms
+   wordpos    id=25     ts=947980   bytesAt=126940   (5.757s) t=+16ms
+   wordpos    id=31     ts=956780   bytesAt=126940   (5.757s) t=+16ms
+   wordpos    id=33     ts=961180   bytesAt=126940   (5.757s) t=+16ms
+   wordpos    id=37     ts=961180   bytesAt=126940   (5.757s) t=+16ms
+   wordpos    id=40     ts=969980   bytesAt=126940   (5.757s) t=+16ms
+   wordpos    id=43     ts=969980   bytesAt=126940   (5.757s) t=+16ms
+   wordpos    id=45     ts=969980   bytesAt=126940   (5.757s) t=+16ms
+   wordpos    id=51     ts=983400   bytesAt=126940   (5.757s) t=+16ms
+   wordpos    id=54     ts=996600   bytesAt=126940   (5.757s) t=+31ms
+   wordpos    id=63     ts=1009800  bytesAt=126940   (5.757s) t=+31ms
+   wordpos    id=70     ts=1023000  bytesAt=126940   (5.757s) t=+31ms
+   audiostop  id=0      ts=1036200  bytesAt=126940   (5.757s) t=+31ms
+   wrote C:\Users\joshk\OneDrive\dev\sapivoice\samples\probe\06_unicode_translit.wav
+=== RANGE PROBING ===
+--- pitch (male) ---
+set_pitch(50) -> 0x8000FFFF, get_pitch -> 90
+set_pitch(69) -> 0x8000FFFF, get_pitch -> 90
+set_pitch(70) -> 0x00000000, get_pitch -> 90
+set_pitch(71) -> 0x00000000, get_pitch -> 70
+set_pitch(90) -> 0x00000000, get_pitch -> 71
+set_pitch(100) -> 0x00000000, get_pitch -> 90
+set_pitch(120) -> 0x00000000, get_pitch -> 100
+set_pitch(149) -> 0x00000000, get_pitch -> 120
+set_pitch(150) -> 0x00000000, get_pitch -> 149
+set_pitch(151) -> 0x8000FFFF, get_pitch -> 150
+set_pitch(200) -> 0x8000FFFF, get_pitch -> 150
+set_pitch(300) -> 0x8000FFFF, get_pitch -> 150
+--- speed ---
+set_speed(50) -> 0x8000FFFF, get_speed -> 200
+set_speed(99) -> 0x8000FFFF, get_speed -> 200
+set_speed(100) -> 0x00000000, get_speed -> 200
+set_speed(101) -> 0x00000000, get_speed -> 100
+set_speed(150) -> 0x00000000, get_speed -> 101
+set_speed(200) -> 0x00000000, get_speed -> 150
+set_speed(250) -> 0x00000000, get_speed -> 200
+set_speed(299) -> 0x00000000, get_speed -> 250
+set_speed(300) -> 0x00000000, get_speed -> 299
+set_speed(301) -> 0x8000FFFF, get_speed -> 300
+set_speed(400) -> 0x8000FFFF, get_speed -> 300
+set_speed(1000) -> 0x8000FFFF, get_speed -> 300
+--- volume (0..255) ---
+set_volume(0) -> 0x00000000, get_volume -> 255
+set_volume(1) -> 0x00000000, get_volume -> 0
+set_volume(64) -> 0x00000000, get_volume -> 1
+set_volume(128) -> 0x00000000, get_volume -> 64
+set_volume(200) -> 0x00000000, get_volume -> 128
+set_volume(254) -> 0x00000000, get_volume -> 200
+set_volume(255) -> 0x00000000, get_volume -> 254
+--- brightness (0..15) ---
+set_bright(0) -> 0x00000000, get_bright -> 8
+set_bright(1) -> 0x00000000, get_bright -> 0
+set_bright(5) -> 0x00000000, get_bright -> 1
+set_bright(8) -> 0x00000000, get_bright -> 5
+set_bright(10) -> 0x00000000, get_bright -> 8
+set_bright(11) -> 0x00000000, get_bright -> 10
+set_bright(15) -> 0x00000000, get_bright -> 11
+--- gender ---
+set_gender(1) -> 0x00000000, get_gender -> 1, pitch=195 speed=200 bright=8 loaded(m,f,n)=1,1,0
+set_gender(2) -> 0x00000000, get_gender -> 2, pitch=90 speed=200 bright=8 loaded(m,f,n)=1,1,0
+set_gender(1) -> 0x00000000, get_gender -> 1, pitch=195 speed=200 bright=8 loaded(m,f,n)=1,1,0
+set_gender(2) -> 0x00000000, get_gender -> 2, pitch=90 speed=200 bright=8 loaded(m,f,n)=1,1,0
+--- pitch (female) ---
+set_pitch(100) -> 0x8000FFFF, get_pitch -> 195
+set_pitch(144) -> 0x8000FFFF, get_pitch -> 195
+set_pitch(145) -> 0x00000000, get_pitch -> 195
+set_pitch(146) -> 0x00000000, get_pitch -> 145
+set_pitch(195) -> 0x00000000, get_pitch -> 146
+set_pitch(250) -> 0x00000000, get_pitch -> 195
+set_pitch(299) -> 0x00000000, get_pitch -> 250
+set_pitch(300) -> 0x00000000, get_pitch -> 299
+set_pitch(301) -> 0x8000FFFF, get_pitch -> 300
+set_pitch(400) -> 0x8000FFFF, get_pitch -> 300
+--- number samples ---
+set_number_samples(1) -> 0x00000000, get -> 0, loaded=0
+set_number_samples(0) -> 0x00000000, get -> 1, loaded=1
+--- modes ---
+set_mode(1,1) -> 0x00000000, get_mode -> 0
+set_mode(1,0) -> 0x00000000, get_mode -> 1
+set_mode(2,1) -> 0x00000000, get_mode -> 0
+set_mode(2,0) -> 0x00000000, get_mode -> 1
+set_mode(3,1) -> 0x00000000, get_mode -> 1
+set_mode(3,0) -> 0x00000000, get_mode -> 1
+set_mode(4,1) -> 0x00000000, get_mode -> 0
+set_mode(4,0) -> 0x00000000, get_mode -> 1
+set_mode(5,1) -> 0x00000000, get_mode -> 0
+set_mode(5,0) -> 0x00000000, get_mode -> 1
+set_mode(6,1) -> 0x00000000, get_mode -> 0
+set_mode(6,0) -> 0x00000000, get_mode -> 1
+set_mode(7,1) -> 0x80070057 (expect 0x80070057)
+set_mode(0,0) reset -> 0x00000000, get_mode(0) -> 0
+STATE[after ranges]: gender=2 pitch=90 speed=200 volume=255 bright=8 number=0 modes=[1 0 0 1 0 0 0] version=1.0.225
+=== PARAMETER SWEEPS ===
+SPEAK[10_male_pitch_70]: hr=0x00000000 total=31ms firstAudio=+16ms bytes=68640 (3.11s audio, rtf=100.4x) chunks=7 min=2640 max=11000
+   started    id=0      ts=1036200  bytesAt=0        (0.000s) t=+0ms
+   audiostart id=0      ts=1036200  bytesAt=0        (0.000s) t=+16ms
+   wordpos    id=0      ts=1040600  bytesAt=44000    (1.995s) t=+16ms
+   done       id=0      ts=1040600  bytesAt=68640    (3.113s) t=+16ms
+   wordpos    id=5      ts=1045000  bytesAt=68640    (3.113s) t=+16ms
+   wordpos    id=8      ts=1049400  bytesAt=68640    (3.113s) t=+16ms
+   wordpos    id=12     ts=1049400  bytesAt=68640    (3.113s) t=+16ms
+   wordpos    id=17     ts=1058200  bytesAt=68640    (3.113s) t=+16ms
+   wordpos    id=23     ts=1062600  bytesAt=68640    (3.113s) t=+16ms
+   wordpos    id=26     ts=1067000  bytesAt=68640    (3.113s) t=+16ms
+   wordpos    id=32     ts=1076020  bytesAt=68640    (3.113s) t=+16ms
+   wordpos    id=35     ts=1084820  bytesAt=68640    (3.113s) t=+16ms
+   wordpos    id=40     ts=1093620  bytesAt=68640    (3.113s) t=+16ms
+   audiostop  id=0      ts=1106820  bytesAt=68640    (3.113s) t=+31ms
+   wrote C:\Users\joshk\OneDrive\dev\sapivoice\samples\probe\10_male_pitch_70.wav
+SPEAK[10_male_pitch_90]: hr=0x00000000 total=16ms firstAudio=+0ms bytes=66660 (3.02s audio, rtf=188.9x) chunks=7 min=660 max=11000
+   started    id=0      ts=1106820  bytesAt=0        (0.000s) t=+0ms
+   audiostart id=0      ts=1106820  bytesAt=0        (0.000s) t=+0ms
+   wordpos    id=0      ts=1111220  bytesAt=22000    (0.998s) t=+0ms
+   done       id=0      ts=1111220  bytesAt=66660    (3.023s) t=+0ms
+   wordpos    id=5      ts=1115620  bytesAt=66660    (3.023s) t=+0ms
+   wordpos    id=8      ts=1120020  bytesAt=66660    (3.023s) t=+0ms
+   wordpos    id=12     ts=1120020  bytesAt=66660    (3.023s) t=+0ms
+   wordpos    id=17     ts=1128820  bytesAt=66660    (3.023s) t=+0ms
+   wordpos    id=23     ts=1133220  bytesAt=66660    (3.023s) t=+0ms
+   wordpos    id=26     ts=1137620  bytesAt=66660    (3.023s) t=+0ms
+   wordpos    id=32     ts=1146420  bytesAt=66660    (3.023s) t=+0ms
+   wordpos    id=35     ts=1150820  bytesAt=66660    (3.023s) t=+0ms
+   wordpos    id=40     ts=1164020  bytesAt=66660    (3.023s) t=+0ms
+   audiostop  id=0      ts=1173040  bytesAt=66660    (3.023s) t=+16ms
+   wrote C:\Users\joshk\OneDrive\dev\sapivoice\samples\probe\10_male_pitch_90.wav
+SPEAK[10_male_pitch_110]: hr=0x00000000 total=16ms firstAudio=+0ms bytes=76340 (3.46s audio, rtf=216.4x) chunks=7 min=10340 max=11000
+   started    id=0      ts=1173040  bytesAt=0        (0.000s) t=+0ms
+   audiostart id=0      ts=1173040  bytesAt=0        (0.000s) t=+0ms
+   wordpos    id=0      ts=1177440  bytesAt=44000    (1.995s) t=+0ms
+   done       id=0      ts=1177440  bytesAt=76340    (3.462s) t=+0ms
+   wordpos    id=5      ts=1181840  bytesAt=76340    (3.462s) t=+0ms
+   wordpos    id=8      ts=1186240  bytesAt=76340    (3.462s) t=+0ms
+   wordpos    id=12     ts=1186240  bytesAt=76340    (3.462s) t=+0ms
+   wordpos    id=17     ts=1195040  bytesAt=76340    (3.462s) t=+0ms
+   wordpos    id=23     ts=1203840  bytesAt=76340    (3.462s) t=+0ms
+   wordpos    id=26     ts=1203840  bytesAt=76340    (3.462s) t=+0ms
+   wordpos    id=32     ts=1212640  bytesAt=76340    (3.462s) t=+0ms
+   wordpos    id=36     ts=1230240  bytesAt=76340    (3.462s) t=+16ms
+   wordpos    id=41     ts=1239040  bytesAt=76340    (3.462s) t=+16ms
+   audiostop  id=0      ts=1261040  bytesAt=76340    (3.462s) t=+16ms
+   wrote C:\Users\joshk\OneDrive\dev\sapivoice\samples\probe\10_male_pitch_110.wav
+SPEAK[10_male_pitch_130]: hr=0x00000000 total=15ms firstAudio=+0ms bytes=77440 (3.51s audio, rtf=234.1x) chunks=8 min=440 max=11000
+   started    id=0      ts=1261040  bytesAt=0        (0.000s) t=+0ms
+   audiostart id=0      ts=1261040  bytesAt=0        (0.000s) t=+0ms
+   wordpos    id=0      ts=1265660  bytesAt=11000    (0.499s) t=+0ms
+   wordpos    id=5      ts=1270060  bytesAt=44000    (1.995s) t=+0ms
+   done       id=0      ts=1270060  bytesAt=77440    (3.512s) t=+0ms
+   wordpos    id=8      ts=1274460  bytesAt=77440    (3.512s) t=+0ms
+   wordpos    id=12     ts=1274460  bytesAt=77440    (3.512s) t=+0ms
+   wordpos    id=17     ts=1283260  bytesAt=77440    (3.512s) t=+0ms
+   wordpos    id=23     ts=1287660  bytesAt=77440    (3.512s) t=+0ms
+   wordpos    id=26     ts=1292060  bytesAt=77440    (3.512s) t=+0ms
+   wordpos    id=32     ts=1300860  bytesAt=77440    (3.512s) t=+15ms
+   wordpos    id=36     ts=1318460  bytesAt=77440    (3.512s) t=+15ms
+   wordpos    id=41     ts=1327260  bytesAt=77440    (3.512s) t=+15ms
+   audiostop  id=0      ts=1340460  bytesAt=77440    (3.512s) t=+15ms
+   wrote C:\Users\joshk\OneDrive\dev\sapivoice\samples\probe\10_male_pitch_130.wav
+SPEAK[10_male_pitch_150]: hr=0x00000000 total=16ms firstAudio=+0ms bytes=78760 (3.57s audio, rtf=223.2x) chunks=8 min=1760 max=11000
+   started    id=0      ts=1340460  bytesAt=0        (0.000s) t=+0ms
+   audiostart id=0      ts=1340460  bytesAt=0        (0.000s) t=+0ms
+   wordpos    id=0      ts=1344860  bytesAt=11000    (0.499s) t=+0ms
+   wordpos    id=5      ts=1349260  bytesAt=55000    (2.494s) t=+0ms
+   done       id=0      ts=1349260  bytesAt=78760    (3.572s) t=+0ms
+   wordpos    id=8      ts=1353660  bytesAt=78760    (3.572s) t=+0ms
+   wordpos    id=12     ts=1353660  bytesAt=78760    (3.572s) t=+0ms
+   wordpos    id=17     ts=1362680  bytesAt=78760    (3.572s) t=+0ms
+   wordpos    id=23     ts=1367080  bytesAt=78760    (3.572s) t=+0ms
+   wordpos    id=26     ts=1371480  bytesAt=78760    (3.572s) t=+16ms
+   wordpos    id=32     ts=1380280  bytesAt=78760    (3.572s) t=+16ms
+   wordpos    id=36     ts=1397880  bytesAt=78760    (3.572s) t=+16ms
+   wordpos    id=41     ts=1406680  bytesAt=78760    (3.572s) t=+16ms
+   audiostop  id=0      ts=1424280  bytesAt=78760    (3.572s) t=+16ms
+   wrote C:\Users\joshk\OneDrive\dev\sapivoice\samples\probe\10_male_pitch_150.wav
+SPEAK[11_speed_100]: hr=0x00000000 total=78ms firstAudio=+0ms bytes=295460 (13.40s audio, rtf=171.8x) chunks=27 min=9460 max=11000
+   started    id=0      ts=1424280  bytesAt=0        (0.000s) t=+0ms
+   audiostart id=0      ts=1424280  bytesAt=0        (0.000s) t=+0ms
+   wordpos    id=0      ts=1428680  bytesAt=11000    (0.499s) t=+0ms
+   done       id=0      ts=1450680  bytesAt=295460   (13.400s) t=+16ms
+   wordpos    id=5      ts=1464100  bytesAt=295460   (13.400s) t=+16ms
+   wordpos    id=8      ts=1472900  bytesAt=295460   (13.400s) t=+16ms
+   wordpos    id=12     ts=1481700  bytesAt=295460   (13.400s) t=+16ms
+   wordpos    id=17     ts=1512500  bytesAt=295460   (13.400s) t=+31ms
+   wordpos    id=23     ts=1516900  bytesAt=295460   (13.400s) t=+31ms
+   wordpos    id=32     ts=1534500  bytesAt=295460   (13.400s) t=+31ms
+   wordpos    id=35     ts=1561120  bytesAt=295460   (13.400s) t=+31ms
+   wordpos    id=57     ts=1583120  bytesAt=295460   (13.400s) t=+47ms
+   wordpos    id=61     ts=1587520  bytesAt=295460   (13.400s) t=+47ms
+   wordpos    id=67     ts=1600720  bytesAt=295460   (13.400s) t=+47ms
+   wordpos    id=73     ts=1609520  bytesAt=295460   (13.400s) t=+47ms
+   wordpos    id=77     ts=1631520  bytesAt=295460   (13.400s) t=+47ms
+   wordpos    id=83     ts=1662540  bytesAt=295460   (13.400s) t=+62ms
+   wordpos    id=88     ts=1671340  bytesAt=295460   (13.400s) t=+62ms
+   wordpos    id=92     ts=1688940  bytesAt=295460   (13.400s) t=+62ms
+   wordpos    id=97     ts=1702140  bytesAt=295460   (13.400s) t=+62ms
+   audiostop  id=0      ts=1728540  bytesAt=295460   (13.400s) t=+78ms
+   wrote C:\Users\joshk\OneDrive\dev\sapivoice\samples\probe\11_speed_100.wav
+SPEAK[11_speed_150]: hr=0x00000000 total=47ms firstAudio=+0ms bytes=211640 (9.60s audio, rtf=204.2x) chunks=20 min=2640 max=11000
+   started    id=0      ts=1728540  bytesAt=0        (0.000s) t=+0ms
+   audiostart id=0      ts=1728540  bytesAt=0        (0.000s) t=+0ms
+   wordpos    id=0      ts=1732940  bytesAt=22000    (0.998s) t=+0ms
+   done       id=0      ts=1746140  bytesAt=211640   (9.598s) t=+0ms
+   wordpos    id=5      ts=1755160  bytesAt=211640   (9.598s) t=+0ms
+   wordpos    id=8      ts=1759560  bytesAt=211640   (9.598s) t=+0ms
+   wordpos    id=12     ts=1768360  bytesAt=211640   (9.598s) t=+0ms
+   wordpos    id=17     ts=1785960  bytesAt=211640   (9.598s) t=+16ms
+   wordpos    id=23     ts=1790360  bytesAt=211640   (9.598s) t=+16ms
+   wordpos    id=32     ts=1803560  bytesAt=211640   (9.598s) t=+16ms
+   wordpos    id=35     ts=1816760  bytesAt=211640   (9.598s) t=+16ms
+   wordpos    id=57     ts=1843160  bytesAt=211640   (9.598s) t=+16ms
+   wordpos    id=61     ts=1847780  bytesAt=211640   (9.598s) t=+31ms
+   wordpos    id=67     ts=1856580  bytesAt=211640   (9.598s) t=+31ms
+   wordpos    id=73     ts=1865380  bytesAt=211640   (9.598s) t=+31ms
+   wordpos    id=77     ts=1878580  bytesAt=211640   (9.598s) t=+31ms
+   wordpos    id=83     ts=1904980  bytesAt=211640   (9.598s) t=+31ms
+   wordpos    id=88     ts=1904980  bytesAt=211640   (9.598s) t=+31ms
+   wordpos    id=92     ts=1913780  bytesAt=211640   (9.598s) t=+31ms
+   wordpos    id=97     ts=1926980  bytesAt=211640   (9.598s) t=+47ms
+   audiostop  id=0      ts=1944800  bytesAt=211640   (9.598s) t=+47ms
+   wrote C:\Users\joshk\OneDrive\dev\sapivoice\samples\probe\11_speed_150.wav
+SPEAK[11_speed_200]: hr=0x00000000 total=31ms firstAudio=+0ms bytes=150260 (6.81s audio, rtf=219.8x) chunks=14 min=7260 max=11000
+   started    id=0      ts=1944800  bytesAt=0        (0.000s) t=+0ms
+   audiostart id=0      ts=1944800  bytesAt=0        (0.000s) t=+0ms
+   wordpos    id=0      ts=1949200  bytesAt=55000    (2.494s) t=+0ms
+   wordpos    id=5      ts=1953600  bytesAt=88000    (3.991s) t=+0ms
+   wordpos    id=8      ts=1958000  bytesAt=132000   (5.986s) t=+0ms
+   wordpos    id=12     ts=1958000  bytesAt=132000   (5.986s) t=+0ms
+   done       id=0      ts=1958000  bytesAt=150260   (6.815s) t=+0ms
+   wordpos    id=17     ts=1966800  bytesAt=150260   (6.815s) t=+0ms
+   wordpos    id=23     ts=1971200  bytesAt=150260   (6.815s) t=+0ms
+   wordpos    id=32     ts=1984400  bytesAt=150260   (6.815s) t=+16ms
+   wordpos    id=35     ts=1988800  bytesAt=150260   (6.815s) t=+16ms
+   wordpos    id=39     ts=2002000  bytesAt=150260   (6.815s) t=+16ms
+   wordpos    id=45     ts=2006400  bytesAt=150260   (6.815s) t=+16ms
+   wordpos    id=49     ts=2010800  bytesAt=150260   (6.815s) t=+16ms
+   wordpos    id=57     ts=2024000  bytesAt=150260   (6.815s) t=+16ms
+   wordpos    id=61     ts=2024000  bytesAt=150260   (6.815s) t=+16ms
+   wordpos    id=67     ts=2032800  bytesAt=150260   (6.815s) t=+16ms
+   wordpos    id=73     ts=2041820  bytesAt=150260   (6.815s) t=+16ms
+   wordpos    id=77     ts=2046220  bytesAt=150260   (6.815s) t=+16ms
+   wordpos    id=83     ts=2059420  bytesAt=150260   (6.815s) t=+31ms
+   wordpos    id=88     ts=2063820  bytesAt=150260   (6.815s) t=+31ms
+   wordpos    id=92     ts=2068220  bytesAt=150260   (6.815s) t=+31ms
+   wordpos    id=97     ts=2077020  bytesAt=150260   (6.815s) t=+31ms
+   wordpos    id=100    ts=2081420  bytesAt=150260   (6.815s) t=+31ms
+   audiostop  id=0      ts=2103420  bytesAt=150260   (6.815s) t=+31ms
+   wrote C:\Users\joshk\OneDrive\dev\sapivoice\samples\probe\11_speed_200.wav
+SPEAK[11_speed_250]: hr=0x00000000 total=31ms firstAudio=+0ms bytes=130680 (5.93s audio, rtf=191.2x) chunks=12 min=9680 max=11000
+   started    id=0      ts=2103420  bytesAt=0        (0.000s) t=+0ms
+   audiostart id=0      ts=2103420  bytesAt=0        (0.000s) t=+0ms
+   wordpos    id=0      ts=2107820  bytesAt=11000    (0.499s) t=+0ms
+   wordpos    id=5      ts=2116620  bytesAt=88000    (3.991s) t=+16ms
+   wordpos    id=8      ts=2116620  bytesAt=88000    (3.991s) t=+16ms
+   wordpos    id=12     ts=2116620  bytesAt=88000    (3.991s) t=+16ms
+   wordpos    id=17     ts=2121020  bytesAt=121000   (5.488s) t=+16ms
+   done       id=0      ts=2121020  bytesAt=130680   (5.927s) t=+16ms
+   wordpos    id=23     ts=2125420  bytesAt=130680   (5.927s) t=+16ms
+   wordpos    id=32     ts=2138840  bytesAt=130680   (5.927s) t=+16ms
+   wordpos    id=35     ts=2138840  bytesAt=130680   (5.927s) t=+16ms
+   wordpos    id=39     ts=2156440  bytesAt=130680   (5.927s) t=+16ms
+   wordpos    id=45     ts=2165240  bytesAt=130680   (5.927s) t=+16ms
+   wordpos    id=49     ts=2165240  bytesAt=130680   (5.927s) t=+16ms
+   wordpos    id=57     ts=2174040  bytesAt=130680   (5.927s) t=+16ms
+   wordpos    id=61     ts=2178440  bytesAt=130680   (5.927s) t=+16ms
+   wordpos    id=67     ts=2182840  bytesAt=130680   (5.927s) t=+31ms
+   wordpos    id=73     ts=2191640  bytesAt=130680   (5.927s) t=+31ms
+   wordpos    id=77     ts=2204840  bytesAt=130680   (5.927s) t=+31ms
+   wordpos    id=83     ts=2209240  bytesAt=130680   (5.927s) t=+31ms
+   wordpos    id=88     ts=2213640  bytesAt=130680   (5.927s) t=+31ms
+   wordpos    id=92     ts=2213640  bytesAt=130680   (5.927s) t=+31ms
+   wordpos    id=97     ts=2222440  bytesAt=130680   (5.927s) t=+31ms
+   wordpos    id=100    ts=2226840  bytesAt=130680   (5.927s) t=+31ms
+   audiostop  id=0      ts=2244660  bytesAt=130680   (5.927s) t=+31ms
+   wrote C:\Users\joshk\OneDrive\dev\sapivoice\samples\probe\11_speed_250.wav
+SPEAK[11_speed_300]: hr=0x00000000 total=32ms firstAudio=+16ms bytes=110000 (4.99s audio, rtf=155.9x) chunks=10 min=11000 max=11000
+   started    id=0      ts=2244660  bytesAt=0        (0.000s) t=+0ms
+   audiostart id=0      ts=2244660  bytesAt=0        (0.000s) t=+16ms
+   wordpos    id=0      ts=2249060  bytesAt=44000    (1.995s) t=+16ms
+   wordpos    id=5      ts=2249060  bytesAt=44000    (1.995s) t=+16ms
+   wordpos    id=8      ts=2253460  bytesAt=77000    (3.492s) t=+16ms
+   wordpos    id=12     ts=2253460  bytesAt=77000    (3.492s) t=+16ms
+   done       id=0      ts=2253460  bytesAt=110000   (4.989s) t=+16ms
+   wordpos    id=17     ts=2257860  bytesAt=110000   (4.989s) t=+16ms
+   wordpos    id=23     ts=2266660  bytesAt=110000   (4.989s) t=+16ms
+   wordpos    id=32     ts=2275460  bytesAt=110000   (4.989s) t=+16ms
+   wordpos    id=35     ts=2279860  bytesAt=110000   (4.989s) t=+16ms
+   wordpos    id=39     ts=2288660  bytesAt=110000   (4.989s) t=+16ms
+   wordpos    id=45     ts=2297460  bytesAt=110000   (4.989s) t=+16ms
+   wordpos    id=49     ts=2297460  bytesAt=110000   (4.989s) t=+16ms
+   wordpos    id=57     ts=2306260  bytesAt=110000   (4.989s) t=+16ms
+   wordpos    id=61     ts=2306260  bytesAt=110000   (4.989s) t=+16ms
+   wordpos    id=67     ts=2315060  bytesAt=110000   (4.989s) t=+32ms
+   wordpos    id=73     ts=2323860  bytesAt=110000   (4.989s) t=+32ms
+   wordpos    id=77     ts=2328260  bytesAt=110000   (4.989s) t=+32ms
+   wordpos    id=83     ts=2337280  bytesAt=110000   (4.989s) t=+32ms
+   wordpos    id=88     ts=2341680  bytesAt=110000   (4.989s) t=+32ms
+   wordpos    id=92     ts=2341680  bytesAt=110000   (4.989s) t=+32ms
+   wordpos    id=97     ts=2350480  bytesAt=110000   (4.989s) t=+32ms
+   wordpos    id=100    ts=2354880  bytesAt=110000   (4.989s) t=+32ms
+   audiostop  id=0      ts=2354880  bytesAt=110000   (4.989s) t=+32ms
+   wrote C:\Users\joshk\OneDrive\dev\sapivoice\samples\probe\11_speed_300.wav
+SPEAK[12_volume_12]: hr=0x00000000 total=15ms firstAudio=+0ms bytes=71280 (3.23s audio, rtf=215.5x) chunks=7 min=5280 max=11000
+   started    id=0      ts=2354880  bytesAt=0        (0.000s) t=+0ms
+   audiostart id=0      ts=2354880  bytesAt=0        (0.000s) t=+0ms
+   wordpos    id=0      ts=2359280  bytesAt=11000    (0.499s) t=+0ms
+   wordpos    id=5      ts=2363680  bytesAt=55000    (2.494s) t=+0ms
+   done       id=0      ts=2363680  bytesAt=71280    (3.233s) t=+0ms
+   wordpos    id=8      ts=2368080  bytesAt=71280    (3.233s) t=+0ms
+   wordpos    id=12     ts=2368080  bytesAt=71280    (3.233s) t=+0ms
+   wordpos    id=17     ts=2376880  bytesAt=71280    (3.233s) t=+15ms
+   wordpos    id=23     ts=2381280  bytesAt=71280    (3.233s) t=+15ms
+   wordpos    id=26     ts=2385680  bytesAt=71280    (3.233s) t=+15ms
+   wordpos    id=29     ts=2394480  bytesAt=71280    (3.233s) t=+15ms
+   wordpos    id=37     ts=2403280  bytesAt=71280    (3.233s) t=+15ms
+   wordpos    id=43     ts=2416480  bytesAt=71280    (3.233s) t=+15ms
+   audiostop  id=0      ts=2429900  bytesAt=71280    (3.233s) t=+15ms
+   wrote C:\Users\joshk\OneDrive\dev\sapivoice\samples\probe\12_volume_12.wav
+SPEAK[12_volume_37]: hr=0x00000000 total=16ms firstAudio=+0ms bytes=77440 (3.51s audio, rtf=219.5x) chunks=8 min=440 max=11000
+   started    id=0      ts=2429900  bytesAt=0        (0.000s) t=+0ms
+   audiostart id=0      ts=2429900  bytesAt=0        (0.000s) t=+0ms
+   wordpos    id=0      ts=2438700  bytesAt=11000    (0.499s) t=+0ms
+   wordpos    id=5      ts=2438700  bytesAt=11000    (0.499s) t=+0ms
+   done       id=0      ts=2438700  bytesAt=77440    (3.512s) t=+0ms
+   wordpos    id=8      ts=2443100  bytesAt=77440    (3.512s) t=+16ms
+   wordpos    id=12     ts=2443100  bytesAt=77440    (3.512s) t=+16ms
+   wordpos    id=17     ts=2456300  bytesAt=77440    (3.512s) t=+16ms
+   wordpos    id=23     ts=2456300  bytesAt=77440    (3.512s) t=+16ms
+   wordpos    id=26     ts=2460700  bytesAt=77440    (3.512s) t=+16ms
+   wordpos    id=29     ts=2478300  bytesAt=77440    (3.512s) t=+16ms
+   wordpos    id=37     ts=2487100  bytesAt=77440    (3.512s) t=+16ms
+   wordpos    id=43     ts=2500300  bytesAt=77440    (3.512s) t=+16ms
+   audiostop  id=0      ts=2509100  bytesAt=77440    (3.512s) t=+16ms
+   wrote C:\Users\joshk\OneDrive\dev\sapivoice\samples\probe\12_volume_37.wav
+SPEAK[12_volume_62]: hr=0x00000000 total=31ms firstAudio=+0ms bytes=77440 (3.51s audio, rtf=113.3x) chunks=8 min=440 max=11000
+   started    id=0      ts=2509100  bytesAt=0        (0.000s) t=+0ms
+   audiostart id=0      ts=2509100  bytesAt=0        (0.000s) t=+0ms
+   wordpos    id=0      ts=2513500  bytesAt=11000    (0.499s) t=+16ms
+   done       id=0      ts=2513500  bytesAt=77440    (3.512s) t=+16ms
+   wordpos    id=5      ts=2517900  bytesAt=77440    (3.512s) t=+16ms
+   wordpos    id=8      ts=2522300  bytesAt=77440    (3.512s) t=+16ms
+   wordpos    id=12     ts=2522300  bytesAt=77440    (3.512s) t=+16ms
+   wordpos    id=17     ts=2531320  bytesAt=77440    (3.512s) t=+16ms
+   wordpos    id=23     ts=2535720  bytesAt=77440    (3.512s) t=+16ms
+   wordpos    id=26     ts=2540120  bytesAt=77440    (3.512s) t=+16ms
+   wordpos    id=29     ts=2553320  bytesAt=77440    (3.512s) t=+16ms
+   wordpos    id=37     ts=2566520  bytesAt=77440    (3.512s) t=+16ms
+   wordpos    id=43     ts=2575320  bytesAt=77440    (3.512s) t=+16ms
+   audiostop  id=0      ts=2588520  bytesAt=77440    (3.512s) t=+31ms
+   wrote C:\Users\joshk\OneDrive\dev\sapivoice\samples\probe\12_volume_62.wav
+SPEAK[12_volume_100]: hr=0x00000000 total=16ms firstAudio=+0ms bytes=75020 (3.40s audio, rtf=212.6x) chunks=7 min=9020 max=11000
+   started    id=0      ts=2588520  bytesAt=0        (0.000s) t=+0ms
+   audiostart id=0      ts=2588520  bytesAt=0        (0.000s) t=+0ms
+   wordpos    id=0      ts=2592920  bytesAt=11000    (0.499s) t=+0ms
+   wordpos    id=5      ts=2597320  bytesAt=55000    (2.494s) t=+0ms
+   done       id=0      ts=2597320  bytesAt=75020    (3.402s) t=+0ms
+   wordpos    id=8      ts=2601720  bytesAt=75020    (3.402s) t=+0ms
+   wordpos    id=12     ts=2601720  bytesAt=75020    (3.402s) t=+0ms
+   wordpos    id=17     ts=2610520  bytesAt=75020    (3.402s) t=+0ms
+   wordpos    id=23     ts=2614920  bytesAt=75020    (3.402s) t=+0ms
+   wordpos    id=26     ts=2619320  bytesAt=75020    (3.402s) t=+0ms
+   wordpos    id=30     ts=2632740  bytesAt=75020    (3.402s) t=+0ms
+   wordpos    id=38     ts=2641540  bytesAt=75020    (3.402s) t=+0ms
+   wordpos    id=44     ts=2650340  bytesAt=75020    (3.402s) t=+0ms
+   audiostop  id=0      ts=2672340  bytesAt=75020    (3.402s) t=+16ms
+   wrote C:\Users\joshk\OneDrive\dev\sapivoice\samples\probe\12_volume_100.wav
+SPEAK[13_bright_0]: hr=0x00000000 total=15ms firstAudio=+0ms bytes=64020 (2.90s audio, rtf=193.6x) chunks=6 min=9020 max=11000
+   started    id=0      ts=2672340  bytesAt=0        (0.000s) t=+0ms
+   audiostart id=0      ts=2672340  bytesAt=0        (0.000s) t=+0ms
+   done       id=0      ts=2672340  bytesAt=64020    (2.903s) t=+0ms
+   wordpos    id=0      ts=2676740  bytesAt=64020    (2.903s) t=+0ms
+   wordpos    id=5      ts=2681140  bytesAt=64020    (2.903s) t=+0ms
+   wordpos    id=8      ts=2685540  bytesAt=64020    (2.903s) t=+0ms
+   wordpos    id=12     ts=2685540  bytesAt=64020    (2.903s) t=+0ms
+   wordpos    id=17     ts=2694340  bytesAt=64020    (2.903s) t=+0ms
+   wordpos    id=23     ts=2698740  bytesAt=64020    (2.903s) t=+0ms
+   wordpos    id=28     ts=2703140  bytesAt=64020    (2.903s) t=+0ms
+   wordpos    id=39     ts=2716340  bytesAt=64020    (2.903s) t=+15ms
+   wordpos    id=40     ts=2725360  bytesAt=64020    (2.903s) t=+15ms
+   audiostop  id=0      ts=2747360  bytesAt=64020    (2.903s) t=+15ms
+   wrote C:\Users\joshk\OneDrive\dev\sapivoice\samples\probe\13_bright_0.wav
+SPEAK[13_bright_4]: hr=0x00000000 total=16ms firstAudio=+0ms bytes=61380 (2.78s audio, rtf=174.0x) chunks=6 min=6380 max=11000
+   started    id=0      ts=2747360  bytesAt=0        (0.000s) t=+0ms
+   audiostart id=0      ts=2747360  bytesAt=0        (0.000s) t=+0ms
+   wordpos    id=0      ts=2751760  bytesAt=22000    (0.998s) t=+0ms
+   done       id=0      ts=2751760  bytesAt=61380    (2.784s) t=+0ms
+   wordpos    id=5      ts=2756160  bytesAt=61380    (2.784s) t=+0ms
+   wordpos    id=8      ts=2760560  bytesAt=61380    (2.784s) t=+0ms
+   wordpos    id=12     ts=2760560  bytesAt=61380    (2.784s) t=+0ms
+   wordpos    id=17     ts=2769360  bytesAt=61380    (2.784s) t=+0ms
+   wordpos    id=23     ts=2773760  bytesAt=61380    (2.784s) t=+0ms
+   wordpos    id=28     ts=2778160  bytesAt=61380    (2.784s) t=+0ms
+   wordpos    id=39     ts=2791360  bytesAt=61380    (2.784s) t=+16ms
+   wordpos    id=40     ts=2795760  bytesAt=61380    (2.784s) t=+16ms
+   audiostop  id=0      ts=2813360  bytesAt=61380    (2.784s) t=+16ms
+   wrote C:\Users\joshk\OneDrive\dev\sapivoice\samples\probe\13_bright_4.wav
+SPEAK[13_bright_8]: hr=0x00000000 total=16ms firstAudio=+0ms bytes=60940 (2.76s audio, rtf=172.7x) chunks=6 min=5940 max=11000
+   started    id=0      ts=2813360  bytesAt=0        (0.000s) t=+0ms
+   audiostart id=0      ts=2813360  bytesAt=0        (0.000s) t=+0ms
+   wordpos    id=0      ts=2817980  bytesAt=44000    (1.995s) t=+0ms
+   done       id=0      ts=2817980  bytesAt=60940    (2.764s) t=+0ms
+   wordpos    id=5      ts=2822380  bytesAt=60940    (2.764s) t=+0ms
+   wordpos    id=8      ts=2826780  bytesAt=60940    (2.764s) t=+0ms
+   wordpos    id=12     ts=2826780  bytesAt=60940    (2.764s) t=+0ms
+   wordpos    id=17     ts=2839980  bytesAt=60940    (2.764s) t=+0ms
+   wordpos    id=23     ts=2839980  bytesAt=60940    (2.764s) t=+0ms
+   wordpos    id=28     ts=2844380  bytesAt=60940    (2.764s) t=+16ms
+   wordpos    id=39     ts=2857580  bytesAt=60940    (2.764s) t=+16ms
+   wordpos    id=40     ts=2861980  bytesAt=60940    (2.764s) t=+16ms
+   audiostop  id=0      ts=2879580  bytesAt=60940    (2.764s) t=+16ms
+   wrote C:\Users\joshk\OneDrive\dev\sapivoice\samples\probe\13_bright_8.wav
+SPEAK[13_bright_12]: hr=0x00000000 total=15ms firstAudio=+0ms bytes=65560 (2.97s audio, rtf=198.2x) chunks=6 min=10560 max=11000
+   started    id=0      ts=2879580  bytesAt=0        (0.000s) t=+0ms
+   audiostart id=0      ts=2879580  bytesAt=0        (0.000s) t=+0ms
+   wordpos    id=0      ts=2883980  bytesAt=44000    (1.995s) t=+0ms
+   done       id=0      ts=2883980  bytesAt=65560    (2.973s) t=+0ms
+   wordpos    id=5      ts=2888380  bytesAt=65560    (2.973s) t=+0ms
+   wordpos    id=8      ts=2892780  bytesAt=65560    (2.973s) t=+0ms
+   wordpos    id=12     ts=2892780  bytesAt=65560    (2.973s) t=+0ms
+   wordpos    id=17     ts=2901580  bytesAt=65560    (2.973s) t=+0ms
+   wordpos    id=23     ts=2910380  bytesAt=65560    (2.973s) t=+15ms
+   wordpos    id=28     ts=2910380  bytesAt=65560    (2.973s) t=+15ms
+   wordpos    id=39     ts=2923800  bytesAt=65560    (2.973s) t=+15ms
+   wordpos    id=41     ts=2932600  bytesAt=65560    (2.973s) t=+15ms
+   audiostop  id=0      ts=2954600  bytesAt=65560    (2.973s) t=+15ms
+   wrote C:\Users\joshk\OneDrive\dev\sapivoice\samples\probe\13_bright_12.wav
+SPEAK[13_bright_15]: hr=0x00000000 total=16ms firstAudio=+0ms bytes=67320 (3.05s audio, rtf=190.8x) chunks=7 min=1320 max=11000
+   started    id=0      ts=2954600  bytesAt=0        (0.000s) t=+0ms
+   audiostart id=0      ts=2954600  bytesAt=0        (0.000s) t=+0ms
+   wordpos    id=0      ts=2963400  bytesAt=44000    (1.995s) t=+0ms
+   wordpos    id=5      ts=2963400  bytesAt=44000    (1.995s) t=+0ms
+   done       id=0      ts=2963400  bytesAt=67320    (3.053s) t=+0ms
+   wordpos    id=8      ts=2967800  bytesAt=67320    (3.053s) t=+0ms
+   wordpos    id=12     ts=2967800  bytesAt=67320    (3.053s) t=+0ms
+   wordpos    id=17     ts=2976600  bytesAt=67320    (3.053s) t=+16ms
+   wordpos    id=23     ts=2981000  bytesAt=67320    (3.053s) t=+16ms
+   wordpos    id=28     ts=2985400  bytesAt=67320    (3.053s) t=+16ms
+   wordpos    id=39     ts=2998600  bytesAt=67320    (3.053s) t=+16ms
+   wordpos    id=41     ts=3012020  bytesAt=67320    (3.053s) t=+16ms
+   audiostop  id=0      ts=3025220  bytesAt=67320    (3.053s) t=+16ms
+   wrote C:\Users\joshk\OneDrive\dev\sapivoice\samples\probe\13_bright_15.wav
+--- female voice ---
+STATE[female]: gender=1 pitch=195 speed=200 volume=255 bright=8 number=0 modes=[1 0 0 1 0 0 0] version=1.0.225
+SPEAK[20_female_default]: hr=0x00000000 total=47ms firstAudio=+0ms bytes=156860 (7.11s audio, rtf=151.4x) chunks=15 min=2860 max=11000
+   started    id=0      ts=3025220  bytesAt=0        (0.000s) t=+0ms
+   audiostart id=0      ts=3025220  bytesAt=0        (0.000s) t=+0ms
+   wordpos    id=0      ts=3034020  bytesAt=55000    (2.494s) t=+16ms
+   wordpos    id=5      ts=3038420  bytesAt=99000    (4.490s) t=+16ms
+   done       id=0      ts=3038420  bytesAt=156860   (7.114s) t=+16ms
+   wordpos    id=7      ts=3051620  bytesAt=156860   (7.114s) t=+16ms
+   wordpos    id=12     ts=3056020  bytesAt=156860   (7.114s) t=+16ms
+   wordpos    id=15     ts=3060420  bytesAt=156860   (7.114s) t=+16ms
+   wordpos    id=19     ts=3060420  bytesAt=156860   (7.114s) t=+16ms
+   wordpos    id=29     ts=3082420  bytesAt=156860   (7.114s) t=+16ms
+   wordpos    id=39     ts=3091220  bytesAt=156860   (7.114s) t=+16ms
+   wordpos    id=44     ts=3095620  bytesAt=156860   (7.114s) t=+16ms
+   wordpos    id=47     ts=3100020  bytesAt=156860   (7.114s) t=+31ms
+   wordpos    id=54     ts=3109040  bytesAt=156860   (7.114s) t=+31ms
+   wordpos    id=62     ts=3122240  bytesAt=156860   (7.114s) t=+31ms
+   wordpos    id=71     ts=3131040  bytesAt=156860   (7.114s) t=+31ms
+   wordpos    id=76     ts=3135440  bytesAt=156860   (7.114s) t=+31ms
+   wordpos    id=80     ts=3139840  bytesAt=156860   (7.114s) t=+31ms
+   wordpos    id=88     ts=3148640  bytesAt=156860   (7.114s) t=+31ms
+   wordpos    id=95     ts=3161840  bytesAt=156860   (7.114s) t=+31ms
+   wordpos    id=100    ts=3170640  bytesAt=156860   (7.114s) t=+47ms
+   audiostop  id=0      ts=3183840  bytesAt=156860   (7.114s) t=+47ms
+   wrote C:\Users\joshk\OneDrive\dev\sapivoice\samples\probe\20_female_default.wav
+SPEAK[21_female_pitch_145]: hr=0x00000000 total=15ms firstAudio=+0ms bytes=90420 (4.10s audio, rtf=273.4x) chunks=9 min=2420 max=11000
+   started    id=0      ts=3183840  bytesAt=0        (0.000s) t=+0ms
+   audiostart id=0      ts=3183840  bytesAt=0        (0.000s) t=+0ms
+   wordpos    id=0      ts=3192640  bytesAt=11000    (0.499s) t=+0ms
+   wordpos    id=5      ts=3192640  bytesAt=11000    (0.499s) t=+0ms
+   wordpos    id=8      ts=3197040  bytesAt=55000    (2.494s) t=+0ms
+   wordpos    id=12     ts=3197040  bytesAt=55000    (2.494s) t=+0ms
+   done       id=0      ts=3197040  bytesAt=90420    (4.101s) t=+0ms
+   wordpos    id=19     ts=3210460  bytesAt=90420    (4.101s) t=+0ms
+   wordpos    id=25     ts=3214860  bytesAt=90420    (4.101s) t=+0ms
+   wordpos    id=28     ts=3219260  bytesAt=90420    (4.101s) t=+0ms
+   wordpos    id=34     ts=3228060  bytesAt=90420    (4.101s) t=+0ms
+   wordpos    id=38     ts=3258860  bytesAt=90420    (4.101s) t=+15ms
+   wordpos    id=43     ts=3263260  bytesAt=90420    (4.101s) t=+15ms
+   audiostop  id=0      ts=3276460  bytesAt=90420    (4.101s) t=+15ms
+   wrote C:\Users\joshk\OneDrive\dev\sapivoice\samples\probe\21_female_pitch_145.wav
+SPEAK[21_female_pitch_175]: hr=0x00000000 total=32ms firstAudio=+0ms bytes=93060 (4.22s audio, rtf=131.9x) chunks=9 min=5060 max=11000
+   started    id=0      ts=3276460  bytesAt=0        (0.000s) t=+0ms
+   audiostart id=0      ts=3276460  bytesAt=0        (0.000s) t=+0ms
+   done       id=0      ts=3276460  bytesAt=93060    (4.220s) t=+0ms
+   wordpos    id=0      ts=3280860  bytesAt=93060    (4.220s) t=+0ms
+   wordpos    id=5      ts=3285260  bytesAt=93060    (4.220s) t=+0ms
+   wordpos    id=8      ts=3289660  bytesAt=93060    (4.220s) t=+0ms
+   wordpos    id=12     ts=3289660  bytesAt=93060    (4.220s) t=+0ms
+   wordpos    id=19     ts=3303080  bytesAt=93060    (4.220s) t=+16ms
+   wordpos    id=25     ts=3307480  bytesAt=93060    (4.220s) t=+16ms
+   wordpos    id=28     ts=3311880  bytesAt=93060    (4.220s) t=+16ms
+   wordpos    id=34     ts=3320680  bytesAt=93060    (4.220s) t=+16ms
+   wordpos    id=38     ts=3351480  bytesAt=93060    (4.220s) t=+16ms
+   wordpos    id=43     ts=3355880  bytesAt=93060    (4.220s) t=+16ms
+   audiostop  id=0      ts=3373480  bytesAt=93060    (4.220s) t=+32ms
+   wrote C:\Users\joshk\OneDrive\dev\sapivoice\samples\probe\21_female_pitch_175.wav
+SPEAK[21_female_pitch_195]: hr=0x00000000 total=15ms firstAudio=+0ms bytes=91080 (4.13s audio, rtf=275.4x) chunks=9 min=3080 max=11000
+   started    id=0      ts=3373480  bytesAt=0        (0.000s) t=+0ms
+   audiostart id=0      ts=3373480  bytesAt=0        (0.000s) t=+0ms
+   wordpos    id=0      ts=3382280  bytesAt=22000    (0.998s) t=+0ms
+   wordpos    id=5      ts=3382280  bytesAt=22000    (0.998s) t=+0ms
+   wordpos    id=8      ts=3386680  bytesAt=66000    (2.993s) t=+0ms
+   wordpos    id=12     ts=3386680  bytesAt=66000    (2.993s) t=+0ms
+   done       id=0      ts=3386680  bytesAt=91080    (4.131s) t=+0ms
+   wordpos    id=19     ts=3400100  bytesAt=91080    (4.131s) t=+0ms
+   wordpos    id=25     ts=3404500  bytesAt=91080    (4.131s) t=+0ms
+   wordpos    id=28     ts=3408900  bytesAt=91080    (4.131s) t=+0ms
+   wordpos    id=34     ts=3417700  bytesAt=91080    (4.131s) t=+0ms
+   wordpos    id=38     ts=3444100  bytesAt=91080    (4.131s) t=+15ms
+   wordpos    id=43     ts=3452900  bytesAt=91080    (4.131s) t=+15ms
+   audiostop  id=0      ts=3470500  bytesAt=91080    (4.131s) t=+15ms
+   wrote C:\Users\joshk\OneDrive\dev\sapivoice\samples\probe\21_female_pitch_195.wav
+SPEAK[21_female_pitch_250]: hr=0x00000000 total=16ms firstAudio=+0ms bytes=84040 (3.81s audio, rtf=238.2x) chunks=8 min=7040 max=11000
+   started    id=0      ts=3470500  bytesAt=0        (0.000s) t=+0ms
+   audiostart id=0      ts=3470500  bytesAt=0        (0.000s) t=+0ms
+   wordpos    id=0      ts=3474900  bytesAt=44000    (1.995s) t=+0ms
+   done       id=0      ts=3474900  bytesAt=84040    (3.811s) t=+0ms
+   wordpos    id=5      ts=3479300  bytesAt=84040    (3.811s) t=+0ms
+   wordpos    id=8      ts=3483700  bytesAt=84040    (3.811s) t=+0ms
+   wordpos    id=12     ts=3483700  bytesAt=84040    (3.811s) t=+0ms
+   wordpos    id=19     ts=3497120  bytesAt=84040    (3.811s) t=+16ms
+   wordpos    id=25     ts=3501520  bytesAt=84040    (3.811s) t=+16ms
+   wordpos    id=28     ts=3510320  bytesAt=84040    (3.811s) t=+16ms
+   wordpos    id=34     ts=3514720  bytesAt=84040    (3.811s) t=+16ms
+   wordpos    id=38     ts=3532320  bytesAt=84040    (3.811s) t=+16ms
+   wordpos    id=43     ts=3541120  bytesAt=84040    (3.811s) t=+16ms
+   audiostop  id=0      ts=3563120  bytesAt=84040    (3.811s) t=+16ms
+   wrote C:\Users\joshk\OneDrive\dev\sapivoice\samples\probe\21_female_pitch_250.wav
+SPEAK[21_female_pitch_300]: hr=0x00000000 total=31ms firstAudio=+0ms bytes=78100 (3.54s audio, rtf=114.3x) chunks=8 min=1100 max=11000
+   started    id=0      ts=3563120  bytesAt=0        (0.000s) t=+0ms
+   audiostart id=0      ts=3563120  bytesAt=0        (0.000s) t=+0ms
+   wordpos    id=0      ts=3571920  bytesAt=11000    (0.499s) t=+16ms
+   wordpos    id=5      ts=3571920  bytesAt=11000    (0.499s) t=+16ms
+   done       id=0      ts=3571920  bytesAt=78100    (3.542s) t=+16ms
+   wordpos    id=8      ts=3576320  bytesAt=78100    (3.542s) t=+16ms
+   wordpos    id=12     ts=3576320  bytesAt=78100    (3.542s) t=+16ms
+   wordpos    id=19     ts=3594140  bytesAt=78100    (3.542s) t=+16ms
+   wordpos    id=25     ts=3594140  bytesAt=78100    (3.542s) t=+16ms
+   wordpos    id=28     ts=3598540  bytesAt=78100    (3.542s) t=+16ms
+   wordpos    id=34     ts=3607340  bytesAt=78100    (3.542s) t=+16ms
+   wordpos    id=38     ts=3620540  bytesAt=78100    (3.542s) t=+16ms
+   wordpos    id=43     ts=3629340  bytesAt=78100    (3.542s) t=+16ms
+   audiostop  id=0      ts=3642540  bytesAt=78100    (3.542s) t=+31ms
+   wrote C:\Users\joshk\OneDrive\dev\sapivoice\samples\probe\21_female_pitch_300.wav
+SPEAK[22_female_bright_0]: hr=0x00000000 total=16ms firstAudio=+0ms bytes=68640 (3.11s audio, rtf=194.6x) chunks=7 min=2640 max=11000
+   started    id=0      ts=3642540  bytesAt=0        (0.000s) t=+0ms
+   audiostart id=0      ts=3642540  bytesAt=0        (0.000s) t=+0ms
+   wordpos    id=0      ts=3646940  bytesAt=44000    (1.995s) t=+0ms
+   done       id=0      ts=3646940  bytesAt=68640    (3.113s) t=+0ms
+   wordpos    id=5      ts=3651340  bytesAt=68640    (3.113s) t=+0ms
+   wordpos    id=8      ts=3655740  bytesAt=68640    (3.113s) t=+0ms
+   wordpos    id=12     ts=3655740  bytesAt=68640    (3.113s) t=+0ms
+   wordpos    id=19     ts=3668940  bytesAt=68640    (3.113s) t=+0ms
+   wordpos    id=25     ts=3673340  bytesAt=68640    (3.113s) t=+0ms
+   wordpos    id=30     ts=3677740  bytesAt=68640    (3.113s) t=+0ms
+   wordpos    id=41     ts=3691160  bytesAt=68640    (3.113s) t=+0ms
+   wordpos    id=42     ts=3699960  bytesAt=68640    (3.113s) t=+16ms
+   audiostop  id=0      ts=3713160  bytesAt=68640    (3.113s) t=+16ms
+   wrote C:\Users\joshk\OneDrive\dev\sapivoice\samples\probe\22_female_bright_0.wav
+SPEAK[22_female_bright_6]: hr=0x00000000 total=15ms firstAudio=+0ms bytes=69080 (3.13s audio, rtf=208.9x) chunks=7 min=3080 max=11000
+   started    id=0      ts=3713160  bytesAt=0        (0.000s) t=+0ms
+   audiostart id=0      ts=3713160  bytesAt=0        (0.000s) t=+0ms
+   wordpos    id=0      ts=3717560  bytesAt=22000    (0.998s) t=+0ms
+   done       id=0      ts=3717560  bytesAt=69080    (3.133s) t=+0ms
+   wordpos    id=5      ts=3726360  bytesAt=69080    (3.133s) t=+0ms
+   wordpos    id=8      ts=3726360  bytesAt=69080    (3.133s) t=+0ms
+   wordpos    id=12     ts=3726360  bytesAt=69080    (3.133s) t=+0ms
+   wordpos    id=19     ts=3739560  bytesAt=69080    (3.133s) t=+0ms
+   wordpos    id=25     ts=3743960  bytesAt=69080    (3.133s) t=+0ms
+   wordpos    id=30     ts=3748360  bytesAt=69080    (3.133s) t=+0ms
+   wordpos    id=41     ts=3761560  bytesAt=69080    (3.133s) t=+0ms
+   wordpos    id=42     ts=3770360  bytesAt=69080    (3.133s) t=+15ms
+   audiostop  id=0      ts=3783560  bytesAt=69080    (3.133s) t=+15ms
+   wrote C:\Users\joshk\OneDrive\dev\sapivoice\samples\probe\22_female_bright_6.wav
+SPEAK[22_female_bright_12]: hr=0x00000000 total=16ms firstAudio=+0ms bytes=70180 (3.18s audio, rtf=198.9x) chunks=7 min=4180 max=11000
+   started    id=0      ts=3783560  bytesAt=0        (0.000s) t=+0ms
+   audiostart id=0      ts=3783560  bytesAt=0        (0.000s) t=+0ms
+   wordpos    id=0      ts=3788180  bytesAt=11000    (0.499s) t=+0ms
+   done       id=0      ts=3788180  bytesAt=70180    (3.183s) t=+0ms
+   wordpos    id=5      ts=3792580  bytesAt=70180    (3.183s) t=+0ms
+   wordpos    id=8      ts=3796980  bytesAt=70180    (3.183s) t=+0ms
+   wordpos    id=12     ts=3796980  bytesAt=70180    (3.183s) t=+0ms
+   wordpos    id=19     ts=3814580  bytesAt=70180    (3.183s) t=+0ms
+   wordpos    id=25     ts=3814580  bytesAt=70180    (3.183s) t=+0ms
+   wordpos    id=30     ts=3818980  bytesAt=70180    (3.183s) t=+0ms
+   wordpos    id=41     ts=3832180  bytesAt=70180    (3.183s) t=+0ms
+   wordpos    id=43     ts=3840980  bytesAt=70180    (3.183s) t=+16ms
+   audiostop  id=0      ts=3858580  bytesAt=70180    (3.183s) t=+16ms
+   wrote C:\Users\joshk\OneDrive\dev\sapivoice\samples\probe\22_female_bright_12.wav
+SPEAK[23_female_speed_100]: hr=0x00000000 total=31ms firstAudio=+0ms bytes=163680 (7.42s audio, rtf=239.5x) chunks=15 min=9680 max=11000
+   started    id=0      ts=3858580  bytesAt=0        (0.000s) t=+0ms
+   audiostart id=0      ts=3858580  bytesAt=0        (0.000s) t=+0ms
+   wordpos    id=0      ts=3862980  bytesAt=11000    (0.499s) t=+0ms
+   done       id=0      ts=3867380  bytesAt=163680   (7.423s) t=+0ms
+   wordpos    id=5      ts=3894000  bytesAt=163680   (7.423s) t=+0ms
+   wordpos    id=8      ts=3911600  bytesAt=163680   (7.423s) t=+16ms
+   wordpos    id=12     ts=3938000  bytesAt=163680   (7.423s) t=+16ms
+   wordpos    id=19     ts=3942400  bytesAt=163680   (7.423s) t=+16ms
+   wordpos    id=25     ts=3960000  bytesAt=163680   (7.423s) t=+16ms
+   wordpos    id=28     ts=3986620  bytesAt=163680   (7.423s) t=+31ms
+   audiostop  id=0      ts=4030620  bytesAt=163680   (7.423s) t=+31ms
+   wrote C:\Users\joshk\OneDrive\dev\sapivoice\samples\probe\23_female_speed_100.wav
+SPEAK[23_female_speed_300]: hr=0x00000000 total=16ms firstAudio=+0ms bytes=54120 (2.45s audio, rtf=153.4x) chunks=5 min=10120 max=11000
+   started    id=0      ts=4030620  bytesAt=0        (0.000s) t=+0ms
+   audiostart id=0      ts=4030620  bytesAt=0        (0.000s) t=+0ms
+   wordpos    id=0      ts=4035020  bytesAt=11000    (0.499s) t=+0ms
+   wordpos    id=5      ts=4035020  bytesAt=11000    (0.499s) t=+0ms
+   done       id=0      ts=4035020  bytesAt=54120    (2.454s) t=+0ms
+   wordpos    id=8      ts=4039420  bytesAt=54120    (2.454s) t=+16ms
+   wordpos    id=12     ts=4039420  bytesAt=54120    (2.454s) t=+16ms
+   wordpos    id=19     ts=4048220  bytesAt=54120    (2.454s) t=+16ms
+   wordpos    id=25     ts=4057020  bytesAt=54120    (2.454s) t=+16ms
+   wordpos    id=28     ts=4057020  bytesAt=54120    (2.454s) t=+16ms
+   wordpos    id=32     ts=4074620  bytesAt=54120    (2.454s) t=+16ms
+   wordpos    id=38     ts=4079240  bytesAt=54120    (2.454s) t=+16ms
+   wordpos    id=42     ts=4079240  bytesAt=54120    (2.454s) t=+16ms
+   wordpos    id=48     ts=4083640  bytesAt=54120    (2.454s) t=+16ms
+   audiostop  id=0      ts=4096840  bytesAt=54120    (2.454s) t=+16ms
+   wrote C:\Users\joshk\OneDrive\dev\sapivoice\samples\probe\23_female_speed_300.wav
+--- reading modes ---
+SPEAK[30_modes_default]: hr=0x00000000 total=94ms firstAudio=+0ms bytes=351780 (15.95s audio, rtf=169.7x) chunks=32 min=10780 max=11000
+   started    id=0      ts=4096840  bytesAt=0        (0.000s) t=+0ms
+   audiostart id=0      ts=4096840  bytesAt=0        (0.000s) t=+0ms
+   wordpos    id=0      ts=4101240  bytesAt=11000    (0.499s) t=+0ms
+   wordpos    id=5      ts=4105640  bytesAt=66000    (2.993s) t=+0ms
+   done       id=0      ts=4127640  bytesAt=351780   (15.954s) t=+16ms
+   wordpos    id=8      ts=4132040  bytesAt=351780   (15.954s) t=+16ms
+   wordpos    id=9      ts=4136440  bytesAt=351780   (15.954s) t=+16ms
+   wordpos    id=13     ts=4162840  bytesAt=351780   (15.954s) t=+16ms
+   wordpos    id=15     ts=4162840  bytesAt=351780   (15.954s) t=+16ms
+   wordpos    id=25     ts=4171640  bytesAt=351780   (15.954s) t=+16ms
+   wordpos    id=30     ts=4193860  bytesAt=351780   (15.954s) t=+31ms
+   wordpos    id=32     ts=4211460  bytesAt=351780   (15.954s) t=+31ms
+   wordpos    id=38     ts=4215860  bytesAt=351780   (15.954s) t=+31ms
+   wordpos    id=41     ts=4229060  bytesAt=351780   (15.954s) t=+31ms
+   wordpos    id=47     ts=4237860  bytesAt=351780   (15.954s) t=+31ms
+   wordpos    id=50     ts=4242260  bytesAt=351780   (15.954s) t=+31ms
+   wordpos    id=51     ts=4251060  bytesAt=351780   (15.954s) t=+47ms
+   wordpos    id=57     ts=4286480  bytesAt=351780   (15.954s) t=+47ms
+   wordpos    id=63     ts=4295280  bytesAt=351780   (15.954s) t=+47ms
+   wordpos    id=69     ts=4304080  bytesAt=351780   (15.954s) t=+47ms
+   wordpos    id=75     ts=4352480  bytesAt=351780   (15.954s) t=+62ms
+   wordpos    id=77     ts=4365680  bytesAt=351780   (15.954s) t=+62ms
+   wordpos    id=81     ts=4370300  bytesAt=351780   (15.954s) t=+62ms
+   wordpos    id=86     ts=4374700  bytesAt=351780   (15.954s) t=+62ms
+   wordpos    id=89     ts=4379100  bytesAt=351780   (15.954s) t=+62ms
+   wordpos    id=91     ts=4387900  bytesAt=351780   (15.954s) t=+78ms
+   wordpos    id=93     ts=4396700  bytesAt=351780   (15.954s) t=+78ms
+   wordpos    id=95     ts=4405500  bytesAt=351780   (15.954s) t=+78ms
+   wordpos    id=99     ts=4409900  bytesAt=351780   (15.954s) t=+78ms
+   wordpos    id=103    ts=4409900  bytesAt=351780   (15.954s) t=+78ms
+   wordpos    id=108    ts=4414300  bytesAt=351780   (15.954s) t=+78ms
+   wordpos    id=112    ts=4436300  bytesAt=351780   (15.954s) t=+78ms
+   audiostop  id=0      ts=4458300  bytesAt=351780   (15.954s) t=+94ms
+   wrote C:\Users\joshk\OneDrive\dev\sapivoice\samples\probe\30_modes_default.wav
+SPEAK[31_number_samples_on]: hr=0x00000000 total=78ms firstAudio=+0ms bytes=383680 (17.40s audio, rtf=223.1x) chunks=35 min=9680 max=11000
+   started    id=0      ts=4458300  bytesAt=0        (0.000s) t=+0ms
+   audiostart id=0      ts=4458300  bytesAt=0        (0.000s) t=+0ms
+   wordpos    id=0      ts=4462700  bytesAt=88000    (3.991s) t=+0ms
+   wordpos    id=5      ts=4471720  bytesAt=209000   (9.478s) t=+0ms
+   done       id=0      ts=4484920  bytesAt=383680   (17.400s) t=+0ms
+   wordpos    id=15     ts=4520120  bytesAt=383680   (17.400s) t=+15ms
+   wordpos    id=25     ts=4533320  bytesAt=383680   (17.400s) t=+15ms
+   wordpos    id=32     ts=4573140  bytesAt=383680   (17.400s) t=+15ms
+   wordpos    id=38     ts=4581940  bytesAt=383680   (17.400s) t=+15ms
+   wordpos    id=41     ts=4599540  bytesAt=383680   (17.400s) t=+31ms
+   wordpos    id=47     ts=4608340  bytesAt=383680   (17.400s) t=+31ms
+   wordpos    id=50     ts=4612740  bytesAt=383680   (17.400s) t=+31ms
+   wordpos    id=57     ts=4661360  bytesAt=383680   (17.400s) t=+47ms
+   wordpos    id=63     ts=4670160  bytesAt=383680   (17.400s) t=+47ms
+   wordpos    id=69     ts=4674560  bytesAt=383680   (17.400s) t=+47ms
+   wordpos    id=75     ts=4722960  bytesAt=383680   (17.400s) t=+47ms
+   wordpos    id=77     ts=4740560  bytesAt=383680   (17.400s) t=+62ms
+   wordpos    id=81     ts=4740560  bytesAt=383680   (17.400s) t=+62ms
+   wordpos    id=86     ts=4749360  bytesAt=383680   (17.400s) t=+62ms
+   wordpos    id=89     ts=4753760  bytesAt=383680   (17.400s) t=+62ms
+   wordpos    id=91     ts=4767180  bytesAt=383680   (17.400s) t=+62ms
+   wordpos    id=93     ts=4780380  bytesAt=383680   (17.400s) t=+62ms
+   wordpos    id=95     ts=4793580  bytesAt=383680   (17.400s) t=+78ms
+   wordpos    id=99     ts=4797980  bytesAt=383680   (17.400s) t=+78ms
+   wordpos    id=103    ts=4802380  bytesAt=383680   (17.400s) t=+78ms
+   wordpos    id=108    ts=4806780  bytesAt=383680   (17.400s) t=+78ms
+   audiostop  id=0      ts=4850780  bytesAt=383680   (17.400s) t=+78ms
+   wrote C:\Users\joshk\OneDrive\dev\sapivoice\samples\probe\31_number_samples_on.wav
+SPEAK[32_zero_mode_on]: hr=0x00000000 total=31ms firstAudio=+0ms bytes=108680 (4.93s audio, rtf=159.0x) chunks=10 min=9680 max=11000
+   started    id=0      ts=4850780  bytesAt=0        (0.000s) t=+0ms
+   audiostart id=0      ts=4850780  bytesAt=0        (0.000s) t=+0ms
+   wordpos    id=0      ts=4855400  bytesAt=22000    (0.998s) t=+0ms
+   wordpos    id=4      ts=4855400  bytesAt=22000    (0.998s) t=+0ms
+   done       id=0      ts=4859800  bytesAt=108680   (4.929s) t=+15ms
+   wordpos    id=9      ts=4864200  bytesAt=108680   (4.929s) t=+15ms
+   wordpos    id=12     ts=4868600  bytesAt=108680   (4.929s) t=+15ms
+   wordpos    id=14     ts=4877400  bytesAt=108680   (4.929s) t=+15ms
+   wordpos    id=16     ts=4881800  bytesAt=108680   (4.929s) t=+15ms
+   wordpos    id=17     ts=4890600  bytesAt=108680   (4.929s) t=+15ms
+   wordpos    id=19     ts=4895000  bytesAt=108680   (4.929s) t=+15ms
+   wordpos    id=24     ts=4899400  bytesAt=108680   (4.929s) t=+15ms
+   wordpos    id=29     ts=4921400  bytesAt=108680   (4.929s) t=+15ms
+   wordpos    id=33     ts=4925800  bytesAt=108680   (4.929s) t=+15ms
+   wordpos    id=37     ts=4947800  bytesAt=108680   (4.929s) t=+31ms
+   audiostop  id=0      ts=4970020  bytesAt=108680   (4.929s) t=+31ms
+   wrote C:\Users\joshk\OneDrive\dev\sapivoice\samples\probe\32_zero_mode_on.wav
+SPEAK[32_zero_mode_off]: hr=0x00000000 total=31ms firstAudio=+0ms bytes=108680 (4.93s audio, rtf=159.0x) chunks=10 min=9680 max=11000
+   started    id=0      ts=4970020  bytesAt=0        (0.000s) t=+0ms
+   audiostart id=0      ts=4970020  bytesAt=0        (0.000s) t=+0ms
+   wordpos    id=0      ts=4974420  bytesAt=33000    (1.497s) t=+0ms
+   wordpos    id=4      ts=4974420  bytesAt=33000    (1.497s) t=+0ms
+   done       id=0      ts=4978820  bytesAt=108680   (4.929s) t=+0ms
+   wordpos    id=9      ts=4987620  bytesAt=108680   (4.929s) t=+0ms
+   wordpos    id=12     ts=4987620  bytesAt=108680   (4.929s) t=+0ms
+   wordpos    id=14     ts=4996420  bytesAt=108680   (4.929s) t=+16ms
+   wordpos    id=16     ts=5000820  bytesAt=108680   (4.929s) t=+16ms
+   wordpos    id=17     ts=5009620  bytesAt=108680   (4.929s) t=+16ms
+   wordpos    id=19     ts=5014020  bytesAt=108680   (4.929s) t=+16ms
+   wordpos    id=24     ts=5018420  bytesAt=108680   (4.929s) t=+16ms
+   wordpos    id=29     ts=5040420  bytesAt=108680   (4.929s) t=+16ms
+   wordpos    id=33     ts=5044820  bytesAt=108680   (4.929s) t=+16ms
+   wordpos    id=37     ts=5067040  bytesAt=108680   (4.929s) t=+31ms
+   audiostop  id=0      ts=5089040  bytesAt=108680   (4.929s) t=+31ms
+   wrote C:\Users\joshk\OneDrive\dev\sapivoice\samples\probe\32_zero_mode_off.wav
+SPEAK[33_dollar_mode_off]: hr=0x00000000 total=16ms firstAudio=+0ms bytes=73700 (3.34s audio, rtf=208.9x) chunks=7 min=7700 max=11000
+   started    id=0      ts=5089040  bytesAt=0        (0.000s) t=+0ms
+   audiostart id=0      ts=5089040  bytesAt=0        (0.000s) t=+0ms
+   wordpos    id=0      ts=5093440  bytesAt=11000    (0.499s) t=+0ms
+   wordpos    id=4      ts=5093440  bytesAt=11000    (0.499s) t=+0ms
+   done       id=0      ts=5097840  bytesAt=73700    (3.342s) t=+0ms
+   wordpos    id=10     ts=5102240  bytesAt=73700    (3.342s) t=+0ms
+   wordpos    id=13     ts=5106640  bytesAt=73700    (3.342s) t=+0ms
+   wordpos    id=14     ts=5119840  bytesAt=73700    (3.342s) t=+0ms
+   wordpos    id=20     ts=5137440  bytesAt=73700    (3.342s) t=+16ms
+   wordpos    id=24     ts=5141840  bytesAt=73700    (3.342s) t=+16ms
+   wordpos    id=26     ts=5150860  bytesAt=73700    (3.342s) t=+16ms
+   audiostop  id=0      ts=5168460  bytesAt=73700    (3.342s) t=+16ms
+   wrote C:\Users\joshk\OneDrive\dev\sapivoice\samples\probe\33_dollar_mode_off.wav
+SPEAK[33_dollar_mode_on]: hr=0x00000000 total=31ms firstAudio=+0ms bytes=98340 (4.46s audio, rtf=143.9x) chunks=9 min=10340 max=11000
+   started    id=0      ts=5168460  bytesAt=0        (0.000s) t=+0ms
+   audiostart id=0      ts=5168460  bytesAt=0        (0.000s) t=+0ms
+   wordpos    id=0      ts=5172860  bytesAt=11000    (0.499s) t=+0ms
+   wordpos    id=4      ts=5172860  bytesAt=11000    (0.499s) t=+0ms
+   done       id=0      ts=5177260  bytesAt=98340    (4.460s) t=+0ms
+   wordpos    id=10     ts=5181660  bytesAt=98340    (4.460s) t=+0ms
+   wordpos    id=13     ts=5186060  bytesAt=98340    (4.460s) t=+0ms
+   wordpos    id=14     ts=5199260  bytesAt=98340    (4.460s) t=+16ms
+   wordpos    id=20     ts=5230060  bytesAt=98340    (4.460s) t=+16ms
+   wordpos    id=24     ts=5234460  bytesAt=98340    (4.460s) t=+16ms
+   wordpos    id=25     ts=5243480  bytesAt=98340    (4.460s) t=+16ms
+   wordpos    id=26     ts=5256680  bytesAt=98340    (4.460s) t=+16ms
+   audiostop  id=0      ts=5278680  bytesAt=98340    (4.460s) t=+31ms
+   wrote C:\Users\joshk\OneDrive\dev\sapivoice\samples\probe\33_dollar_mode_on.wav
+  [engine] speak: engine process died during speech
+SPEAK[34_japanese_mode_on]: hr=0x80004005 total=0ms firstAudio=+0ms bytes=0 (0.00s audio, rtf=0.0x) chunks=0 min=0 max=0
+   started    id=0      ts=5278680  bytesAt=0        (0.000s) t=+0ms
+  [engine] start: launched STLTTS.EXE pid=3812 tid=9728
+  [engine] audio: WaveFormatSet tag=1 ch=1 rate=11025 bits=16 align=2 avg=22050
+  [engine] start: engine ready in 16 ms
+  [engine] clock patch: engine clock x200 (import slot 004EA3BC -> stub 02220000, real timeGetTime 73367860)
+  [engine] start: engine version 1.0.225
+engine not running before [34_japanese_mode_off]; restarting: ok
+SPEAK[34_japanese_mode_off]: hr=0x00000000 total=31ms firstAudio=+0ms bytes=129580 (5.88s audio, rtf=189.6x) chunks=12 min=8580 max=11000
+   started    id=0      ts=0        bytesAt=0        (0.000s) t=+0ms
+   audiostart id=0      ts=0        bytesAt=0        (0.000s) t=+0ms
+   wordpos    id=0      ts=4400     bytesAt=44000    (1.995s) t=+0ms
+   wordpos    id=4      ts=4400     bytesAt=44000    (1.995s) t=+0ms
+   done       id=0      ts=13200    bytesAt=129580   (5.877s) t=+0ms
+   wordpos    id=15     ts=22000    bytesAt=129580   (5.877s) t=+0ms
+   wordpos    id=18     ts=22000    bytesAt=129580   (5.877s) t=+0ms
+   wordpos    id=27     ts=74800    bytesAt=129580   (5.877s) t=+15ms
+   wordpos    id=35     ts=83600    bytesAt=129580   (5.877s) t=+15ms
+   wordpos    id=39     ts=88000    bytesAt=129580   (5.877s) t=+15ms
+   wordpos    id=43     ts=119020   bytesAt=129580   (5.877s) t=+31ms
+   audiostop  id=0      ts=136620   bytesAt=129580   (5.877s) t=+31ms
+   wrote C:\Users\joshk\OneDrive\dev\sapivoice\samples\probe\34_japanese_mode_off.wav
+SPEAK[35_spreadsheet_mode]: hr=0x00000000 total=31ms firstAudio=+0ms bytes=144980 (6.58s audio, rtf=212.1x) chunks=14 min=1980 max=11000
+   started    id=0      ts=136620   bytesAt=0        (0.000s) t=+0ms
+   audiostart id=0      ts=136620   bytesAt=0        (0.000s) t=+0ms
+   wordpos    id=0      ts=141020   bytesAt=22000    (0.998s) t=+0ms
+   done       id=0      ts=145420   bytesAt=144980   (6.575s) t=+0ms
+   wordpos    id=5      ts=149820   bytesAt=144980   (6.575s) t=+0ms
+   wordpos    id=9      ts=158620   bytesAt=144980   (6.575s) t=+0ms
+   wordpos    id=14     ts=185020   bytesAt=144980   (6.575s) t=+16ms
+   wordpos    id=20     ts=193820   bytesAt=144980   (6.575s) t=+16ms
+   wordpos    id=23     ts=202840   bytesAt=144980   (6.575s) t=+16ms
+   wordpos    id=30     ts=229240   bytesAt=144980   (6.575s) t=+16ms
+   wordpos    id=34     ts=242440   bytesAt=144980   (6.575s) t=+16ms
+   wordpos    id=37     ts=260040   bytesAt=144980   (6.575s) t=+31ms
+   audiostop  id=0      ts=282040   bytesAt=144980   (6.575s) t=+31ms
+   wrote C:\Users\joshk\OneDrive\dev\sapivoice\samples\probe\35_spreadsheet_mode.wav
+SPEAK[36_list_mode]: hr=0x00000000 total=16ms firstAudio=+0ms bytes=62700 (2.84s audio, rtf=177.7x) chunks=6 min=7700 max=11000
+   started    id=0      ts=282040   bytesAt=0        (0.000s) t=+0ms
+   audiostart id=0      ts=282040   bytesAt=0        (0.000s) t=+0ms
+   wordpos    id=0      ts=286440   bytesAt=11000    (0.499s) t=+0ms
+   done       id=0      ts=290840   bytesAt=62700    (2.844s) t=+0ms
+   wordpos    id=7      ts=299860   bytesAt=62700    (2.844s) t=+0ms
+   wordpos    id=15     ts=313060   bytesAt=62700    (2.844s) t=+16ms
+   wordpos    id=21     ts=321860   bytesAt=62700    (2.844s) t=+16ms
+   audiostop  id=0      ts=352660   bytesAt=62700    (2.844s) t=+16ms
+   wrote C:\Users\joshk\OneDrive\dev\sapivoice\samples\probe\36_list_mode.wav
+SPEAK[37_plain_lines]: hr=0x00000000 total=16ms firstAudio=+0ms bytes=51920 (2.35s audio, rtf=147.2x) chunks=5 min=7920 max=11000
+   started    id=0      ts=352660   bytesAt=0        (0.000s) t=+0ms
+   audiostart id=0      ts=352660   bytesAt=0        (0.000s) t=+0ms
+   wordpos    id=0      ts=357060   bytesAt=44000    (1.995s) t=+0ms
+   done       id=0      ts=357060   bytesAt=51920    (2.355s) t=+0ms
+   wordpos    id=7      ts=365860   bytesAt=51920    (2.355s) t=+0ms
+   wordpos    id=15     ts=374660   bytesAt=51920    (2.355s) t=+0ms
+   wordpos    id=21     ts=379060   bytesAt=51920    (2.355s) t=+16ms
+   audiostop  id=0      ts=414480   bytesAt=51920    (2.355s) t=+16ms
+   wrote C:\Users\joshk\OneDrive\dev\sapivoice\samples\probe\37_plain_lines.wav
+--- inline tags ---
+SPEAK[40_tag_emphasis]: hr=0x00000000 total=31ms firstAudio=+0ms bytes=100540 (4.56s audio, rtf=147.1x) chunks=10 min=1540 max=11000
+   started    id=0      ts=414480   bytesAt=0        (0.000s) t=+0ms
+   audiostart id=0      ts=414480   bytesAt=0        (0.000s) t=+0ms
+   wordpos    id=0      ts=418880   bytesAt=11000    (0.499s) t=+0ms
+   wordpos    id=5      ts=423280   bytesAt=66000    (2.993s) t=+0ms
+   done       id=0      ts=423280   bytesAt=100540   (4.560s) t=+0ms
+   wordpos    id=10     ts=427680   bytesAt=100540   (4.560s) t=+0ms
+   wordpos    id=18     ts=432080   bytesAt=100540   (4.560s) t=+0ms
+   wordpos    id=27     ts=445280   bytesAt=100540   (4.560s) t=+15ms
+   wordpos    id=29     ts=462880   bytesAt=100540   (4.560s) t=+15ms
+   wordpos    id=34     ts=467280   bytesAt=100540   (4.560s) t=+15ms
+   wordpos    id=38     ts=471680   bytesAt=100540   (4.560s) t=+15ms
+   wordpos    id=55     ts=476080   bytesAt=100540   (4.560s) t=+15ms
+   wordpos    id=65     ts=484880   bytesAt=100540   (4.560s) t=+15ms
+   wordpos    id=67     ts=489500   bytesAt=100540   (4.560s) t=+15ms
+   wordpos    id=86     ts=489500   bytesAt=100540   (4.560s) t=+15ms
+   wordpos    id=93     ts=502700   bytesAt=100540   (4.560s) t=+15ms
+   audiostop  id=0      ts=515900   bytesAt=100540   (4.560s) t=+31ms
+   wrote C:\Users\joshk\OneDrive\dev\sapivoice\samples\probe\40_tag_emphasis.wav
+SPEAK[41_tag_pause]: hr=0x00000000 total=15ms firstAudio=+0ms bytes=125180 (5.68s audio, rtf=378.5x) chunks=12 min=4180 max=11000
+   started    id=0      ts=515900   bytesAt=0        (0.000s) t=+0ms
+   audiostart id=0      ts=515900   bytesAt=0        (0.000s) t=+0ms
+   wordpos    id=0      ts=520300   bytesAt=11000    (0.499s) t=+0ms
+   done       id=0      ts=524700   bytesAt=125180   (5.677s) t=+0ms
+   wordpos    id=7      ts=529100   bytesAt=125180   (5.677s) t=+0ms
+   wordpos    id=11     ts=529100   bytesAt=125180   (5.677s) t=+0ms
+   wordpos    id=16     ts=537900   bytesAt=125180   (5.677s) t=+0ms
+   wordpos    id=29     ts=555500   bytesAt=125180   (5.677s) t=+0ms
+   wordpos    id=35     ts=590920   bytesAt=125180   (5.677s) t=+15ms
+   wordpos    id=37     ts=595320   bytesAt=125180   (5.677s) t=+15ms
+   wordpos    id=41     ts=599720   bytesAt=125180   (5.677s) t=+15ms
+   wordpos    id=45     ts=604120   bytesAt=125180   (5.677s) t=+15ms
+   wordpos    id=47     ts=608520   bytesAt=125180   (5.677s) t=+15ms
+   wordpos    id=52     ts=612920   bytesAt=125180   (5.677s) t=+15ms
+   wordpos    id=59     ts=621720   bytesAt=125180   (5.677s) t=+15ms
+   wordpos    id=64     ts=634920   bytesAt=125180   (5.677s) t=+15ms
+   audiostop  id=0      ts=643720   bytesAt=125180   (5.677s) t=+15ms
+   wrote C:\Users\joshk\OneDrive\dev\sapivoice\samples\probe\41_tag_pause.wav
+SPEAK[42_tag_pitch_speed]: hr=0x00000000 total=63ms firstAudio=+0ms bytes=218900 (9.93s audio, rtf=157.6x) chunks=20 min=9900 max=11000
+   started    id=0      ts=643720   bytesAt=0        (0.000s) t=+0ms
+   audiostart id=0      ts=643720   bytesAt=0        (0.000s) t=+0ms
+   wordpos    id=0      ts=648120   bytesAt=11000    (0.499s) t=+0ms
+   wordpos    id=7      ts=661320   bytesAt=198000   (8.980s) t=+16ms
+   done       id=0      ts=661320   bytesAt=218900   (9.927s) t=+16ms
+   wordpos    id=12     ts=665720   bytesAt=218900   (9.927s) t=+16ms
+   wordpos    id=24     ts=678920   bytesAt=218900   (9.927s) t=+16ms
+   wordpos    id=29     ts=683540   bytesAt=218900   (9.927s) t=+16ms
+   wordpos    id=34     ts=692340   bytesAt=218900   (9.927s) t=+16ms
+   wordpos    id=45     ts=709940   bytesAt=218900   (9.927s) t=+16ms
+   wordpos    id=49     ts=714340   bytesAt=218900   (9.927s) t=+16ms
+   wordpos    id=54     ts=723140   bytesAt=218900   (9.927s) t=+32ms
+   wordpos    id=72     ts=736340   bytesAt=218900   (9.927s) t=+32ms
+   wordpos    id=77     ts=745140   bytesAt=218900   (9.927s) t=+32ms
+   wordpos    id=82     ts=749540   bytesAt=218900   (9.927s) t=+32ms
+   wordpos    id=89     ts=758340   bytesAt=218900   (9.927s) t=+32ms
+   wordpos    id=92     ts=762740   bytesAt=218900   (9.927s) t=+32ms
+   wordpos    id=104    ts=767140   bytesAt=218900   (9.927s) t=+32ms
+   wordpos    id=109    ts=780560   bytesAt=218900   (9.927s) t=+32ms
+   wordpos    id=114    ts=789360   bytesAt=218900   (9.927s) t=+32ms
+   wordpos    id=121    ts=802560   bytesAt=218900   (9.927s) t=+47ms
+   wordpos    id=124    ts=811360   bytesAt=218900   (9.927s) t=+47ms
+   wordpos    id=132    ts=833360   bytesAt=218900   (9.927s) t=+47ms
+   wordpos    id=137    ts=837760   bytesAt=218900   (9.927s) t=+47ms
+   wordpos    id=140    ts=842160   bytesAt=218900   (9.927s) t=+47ms
+   wordpos    id=146    ts=850960   bytesAt=218900   (9.927s) t=+47ms
+   audiostop  id=0      ts=872960   bytesAt=218900   (9.927s) t=+63ms
+   wrote C:\Users\joshk\OneDrive\dev\sapivoice\samples\probe\42_tag_pitch_speed.wav
+STATE[after pitch/speed tags]: gender=2 pitch=90 speed=200 volume=255 bright=8 number=0 modes=[1 0 0 1 0 0 0] version=1.0.225
+SPEAK[43_tag_voice_gender]: hr=0x00000000 total=31ms firstAudio=+0ms bytes=128260 (5.82s audio, rtf=187.6x) chunks=12 min=7260 max=11000
+   started    id=0      ts=872960   bytesAt=0        (0.000s) t=+0ms
+   audiostart id=0      ts=872960   bytesAt=0        (0.000s) t=+0ms
+   wordpos    id=0      ts=877580   bytesAt=22000    (0.998s) t=+0ms
+   wordpos    id=5      ts=886380   bytesAt=55000    (2.494s) t=+0ms
+   wordpos    id=8      ts=886380   bytesAt=55000    (2.494s) t=+0ms
+   wordpos    id=12     ts=886380   bytesAt=55000    (2.494s) t=+0ms
+   done       id=0      ts=886380   bytesAt=128260   (5.817s) t=+0ms
+   wordpos    id=17     ts=895180   bytesAt=128260   (5.817s) t=+0ms
+   wordpos    id=22     ts=903980   bytesAt=128260   (5.817s) t=+0ms
+   wordpos    id=44     ts=917180   bytesAt=128260   (5.817s) t=+0ms
+   wordpos    id=48     ts=925980   bytesAt=128260   (5.817s) t=+16ms
+   wordpos    id=53     ts=930380   bytesAt=128260   (5.817s) t=+16ms
+   wordpos    id=56     ts=930380   bytesAt=128260   (5.817s) t=+16ms
+   wordpos    id=60     ts=934780   bytesAt=128260   (5.817s) t=+16ms
+   wordpos    id=67     ts=947980   bytesAt=128260   (5.817s) t=+16ms
+   wordpos    id=72     ts=956780   bytesAt=128260   (5.817s) t=+16ms
+   wordpos    id=92     ts=969980   bytesAt=128260   (5.817s) t=+16ms
+   wordpos    id=96     ts=974600   bytesAt=128260   (5.817s) t=+16ms
+   wordpos    id=101    ts=983400   bytesAt=128260   (5.817s) t=+16ms
+   wordpos    id=106    ts=987800   bytesAt=128260   (5.817s) t=+16ms
+   audiostop  id=0      ts=1009800  bytesAt=128260   (5.817s) t=+31ms
+   wrote C:\Users\joshk\OneDrive\dev\sapivoice\samples\probe\43_tag_voice_gender.wav
+STATE[after gender tag]: gender=2 pitch=90 speed=200 volume=255 bright=8 number=0 modes=[1 0 0 1 0 0 0] version=1.0.225
+SPEAK[44_tag_volume]: hr=0x00000000 total=16ms firstAudio=+0ms bytes=97900 (4.44s audio, rtf=277.5x) chunks=9 min=9900 max=11000
+   started    id=0      ts=1009800  bytesAt=0        (0.000s) t=+0ms
+   audiostart id=0      ts=1009800  bytesAt=0        (0.000s) t=+0ms
+   wordpos    id=0      ts=1014200  bytesAt=44000    (1.995s) t=+0ms
+   done       id=0      ts=1014200  bytesAt=97900    (4.440s) t=+0ms
+   wordpos    id=5      ts=1018600  bytesAt=97900    (4.440s) t=+0ms
+   wordpos    id=11     ts=1031800  bytesAt=97900    (4.440s) t=+0ms
+   wordpos    id=25     ts=1049400  bytesAt=97900    (4.440s) t=+0ms
+   wordpos    id=33     ts=1053800  bytesAt=97900    (4.440s) t=+16ms
+   wordpos    id=39     ts=1067000  bytesAt=97900    (4.440s) t=+16ms
+   wordpos    id=53     ts=1080420  bytesAt=97900    (4.440s) t=+16ms
+   wordpos    id=58     ts=1089220  bytesAt=97900    (4.440s) t=+16ms
+   wordpos    id=63     ts=1098020  bytesAt=97900    (4.440s) t=+16ms
+   audiostop  id=0      ts=1115620  bytesAt=97900    (4.440s) t=+16ms
+   wrote C:\Users\joshk\OneDrive\dev\sapivoice\samples\probe\44_tag_volume.wav
+STATE[after volume tag]: gender=2 pitch=90 speed=200 volume=255 bright=8 number=0 modes=[1 0 0 1 0 0 0] version=1.0.225
+SPEAK[45_tag_context]: hr=0x00000000 total=63ms firstAudio=+0ms bytes=266420 (12.08s audio, rtf=191.8x) chunks=25 min=2420 max=11000
+   started    id=0      ts=1115620  bytesAt=0        (0.000s) t=+0ms
+   audiostart id=0      ts=1115620  bytesAt=0        (0.000s) t=+0ms
+   wordpos    id=13     ts=1120020  bytesAt=33000    (1.497s) t=+0ms
+   wordpos    id=21     ts=1133220  bytesAt=209000   (9.478s) t=+0ms
+   wordpos    id=25     ts=1137620  bytesAt=242000   (10.975s) t=+0ms
+   done       id=0      ts=1137620  bytesAt=266420   (12.083s) t=+0ms
+   wordpos    id=26     ts=1146420  bytesAt=266420   (12.083s) t=+0ms
+   wordpos    id=31     ts=1155220  bytesAt=266420   (12.083s) t=+0ms
+   wordpos    id=32     ts=1155220  bytesAt=266420   (12.083s) t=+0ms
+   wordpos    id=39     ts=1168640  bytesAt=266420   (12.083s) t=+0ms
+   wordpos    id=40     ts=1173040  bytesAt=266420   (12.083s) t=+0ms
+   wordpos    id=44     ts=1181840  bytesAt=266420   (12.083s) t=+16ms
+   wordpos    id=47     ts=1181840  bytesAt=266420   (12.083s) t=+16ms
+   wordpos    id=53     ts=1190640  bytesAt=266420   (12.083s) t=+16ms
+   wordpos    id=56     ts=1217040  bytesAt=266420   (12.083s) t=+16ms
+   wordpos    id=57     ts=1221440  bytesAt=266420   (12.083s) t=+16ms
+   wordpos    id=66     ts=1234640  bytesAt=266420   (12.083s) t=+16ms
+   wordpos    id=67     ts=1247840  bytesAt=266420   (12.083s) t=+32ms
+   wordpos    id=70     ts=1247840  bytesAt=266420   (12.083s) t=+32ms
+   wordpos    id=86     ts=1265660  bytesAt=266420   (12.083s) t=+32ms
+   wordpos    id=91     ts=1287660  bytesAt=266420   (12.083s) t=+32ms
+   wordpos    id=104    ts=1300860  bytesAt=266420   (12.083s) t=+32ms
+   wordpos    id=108    ts=1309660  bytesAt=266420   (12.083s) t=+32ms
+   wordpos    id=112    ts=1327260  bytesAt=266420   (12.083s) t=+47ms
+   wordpos    id=123    ts=1336060  bytesAt=266420   (12.083s) t=+47ms
+   wordpos    id=126    ts=1349260  bytesAt=266420   (12.083s) t=+47ms
+   wordpos    id=131    ts=1371480  bytesAt=266420   (12.083s) t=+47ms
+   audiostop  id=0      ts=1384680  bytesAt=266420   (12.083s) t=+63ms
+   wrote C:\Users\joshk\OneDrive\dev\sapivoice\samples\probe\45_tag_context.wav
+SPEAK[46_tag_partofspeech]: hr=0x00000000 total=16ms firstAudio=+0ms bytes=88660 (4.02s audio, rtf=251.3x) chunks=9 min=660 max=11000
+   started    id=0      ts=1384680  bytesAt=0        (0.000s) t=+0ms
+   audiostart id=0      ts=1384680  bytesAt=0        (0.000s) t=+0ms
+   wordpos    id=0      ts=1389080  bytesAt=55000    (2.494s) t=+0ms
+   done       id=0      ts=1389080  bytesAt=88660    (4.021s) t=+0ms
+   wordpos    id=10     ts=1393480  bytesAt=88660    (4.021s) t=+0ms
+   wordpos    id=15     ts=1397880  bytesAt=88660    (4.021s) t=+0ms
+   wordpos    id=19     ts=1402280  bytesAt=88660    (4.021s) t=+0ms
+   wordpos    id=24     ts=1406680  bytesAt=88660    (4.021s) t=+0ms
+   wordpos    id=33     ts=1415480  bytesAt=88660    (4.021s) t=+0ms
+   wordpos    id=35     ts=1433080  bytesAt=88660    (4.021s) t=+0ms
+   wordpos    id=50     ts=1441880  bytesAt=88660    (4.021s) t=+0ms
+   wordpos    id=57     ts=1450680  bytesAt=88660    (4.021s) t=+16ms
+   wordpos    id=61     ts=1450680  bytesAt=88660    (4.021s) t=+16ms
+   wordpos    id=67     ts=1459700  bytesAt=88660    (4.021s) t=+16ms
+   audiostop  id=0      ts=1472900  bytesAt=88660    (4.021s) t=+16ms
+   wrote C:\Users\joshk\OneDrive\dev\sapivoice\samples\probe\46_tag_partofspeech.wav
+SPEAK[47_tag_pronounce]: hr=0x00000000 total=46ms firstAudio=+0ms bytes=199760 (9.06s audio, rtf=196.9x) chunks=19 min=1760 max=11000
+   started    id=0      ts=1472900  bytesAt=0        (0.000s) t=+0ms
+   audiostart id=0      ts=1472900  bytesAt=0        (0.000s) t=+0ms
+   wordpos    id=1      ts=1477300  bytesAt=55000    (2.494s) t=+0ms
+   wordpos    id=4      ts=1481700  bytesAt=88000    (3.991s) t=+0ms
+   done       id=0      ts=1490500  bytesAt=199760   (9.059s) t=+0ms
+   wordpos    id=5      ts=1499300  bytesAt=199760   (9.059s) t=+0ms
+   wordpos    id=8      ts=1512500  bytesAt=199760   (9.059s) t=+15ms
+   wordpos    id=9      ts=1521300  bytesAt=199760   (9.059s) t=+15ms
+   wordpos    id=18     ts=1534500  bytesAt=199760   (9.059s) t=+15ms
+   wordpos    id=19     ts=1543300  bytesAt=199760   (9.059s) t=+15ms
+   wordpos    id=21     ts=1547700  bytesAt=199760   (9.059s) t=+15ms
+   wordpos    id=24     ts=1556720  bytesAt=199760   (9.059s) t=+15ms
+   wordpos    id=26     ts=1561120  bytesAt=199760   (9.059s) t=+15ms
+   wordpos    id=29     ts=1565520  bytesAt=199760   (9.059s) t=+15ms
+   wordpos    id=31     ts=1574320  bytesAt=199760   (9.059s) t=+15ms
+   wordpos    id=34     ts=1578720  bytesAt=199760   (9.059s) t=+15ms
+   wordpos    id=36     ts=1587520  bytesAt=199760   (9.059s) t=+31ms
+   wordpos    id=39     ts=1605120  bytesAt=199760   (9.059s) t=+31ms
+   wordpos    id=40     ts=1609520  bytesAt=199760   (9.059s) t=+31ms
+   wordpos    id=41     ts=1618320  bytesAt=199760   (9.059s) t=+31ms
+   wordpos    id=43     ts=1618320  bytesAt=199760   (9.059s) t=+31ms
+   wordpos    id=53     ts=1631520  bytesAt=199760   (9.059s) t=+31ms
+   wordpos    id=56     ts=1635920  bytesAt=199760   (9.059s) t=+31ms
+   wordpos    id=60     ts=1640320  bytesAt=199760   (9.059s) t=+31ms
+   wordpos    id=65     ts=1644720  bytesAt=199760   (9.059s) t=+31ms
+   wordpos    id=68     ts=1649120  bytesAt=199760   (9.059s) t=+46ms
+   wordpos    id=73     ts=1653740  bytesAt=199760   (9.059s) t=+46ms
+   wordpos    id=79     ts=1662540  bytesAt=199760   (9.059s) t=+46ms
+   audiostop  id=0      ts=1675740  bytesAt=199760   (9.059s) t=+46ms
+   wrote C:\Users\joshk\OneDrive\dev\sapivoice\samples\probe\47_tag_pronounce.wav
+SPEAK[48_tag_phonemes]: hr=0x00000000 total=32ms firstAudio=+0ms bytes=155100 (7.03s audio, rtf=219.8x) chunks=15 min=1100 max=11000
+   started    id=0      ts=1675740  bytesAt=0        (0.000s) t=+0ms
+   audiostart id=0      ts=1675740  bytesAt=0        (0.000s) t=+0ms
+   wordpos    id=1      ts=1680140  bytesAt=55000    (2.494s) t=+0ms
+   wordpos    id=4      ts=1684540  bytesAt=99000    (4.490s) t=+0ms
+   done       id=0      ts=1684540  bytesAt=155100   (7.034s) t=+0ms
+   wordpos    id=5      ts=1702140  bytesAt=155100   (7.034s) t=+0ms
+   wordpos    id=8      ts=1715340  bytesAt=155100   (7.034s) t=+16ms
+   wordpos    id=9      ts=1724140  bytesAt=155100   (7.034s) t=+16ms
+   wordpos    id=12     ts=1737340  bytesAt=155100   (7.034s) t=+16ms
+   wordpos    id=15     ts=1737340  bytesAt=155100   (7.034s) t=+16ms
+   wordpos    id=17     ts=1741740  bytesAt=155100   (7.034s) t=+16ms
+   wordpos    id=20     ts=1755160  bytesAt=155100   (7.034s) t=+16ms
+   wordpos    id=22     ts=1763960  bytesAt=155100   (7.034s) t=+16ms
+   wordpos    id=25     ts=1777160  bytesAt=155100   (7.034s) t=+16ms
+   wordpos    id=27     ts=1777160  bytesAt=155100   (7.034s) t=+16ms
+   wordpos    id=28     ts=1781560  bytesAt=155100   (7.034s) t=+16ms
+   wordpos    id=30     ts=1781560  bytesAt=155100   (7.034s) t=+16ms
+   wordpos    id=34     ts=1785960  bytesAt=155100   (7.034s) t=+32ms
+   wordpos    id=41     ts=1799160  bytesAt=155100   (7.034s) t=+32ms
+   wordpos    id=46     ts=1803560  bytesAt=155100   (7.034s) t=+32ms
+   wordpos    id=54     ts=1821160  bytesAt=155100   (7.034s) t=+32ms
+   audiostop  id=0      ts=1829960  bytesAt=155100   (7.034s) t=+32ms
+   wrote C:\Users\joshk\OneDrive\dev\sapivoice\samples\probe\48_tag_phonemes.wav
+SPEAK[49_tag_set_number]: hr=0x00000000 total=47ms firstAudio=+0ms bytes=200640 (9.10s audio, rtf=193.6x) chunks=19 min=2640 max=11000
+   started    id=0      ts=1829960  bytesAt=0        (0.000s) t=+0ms
+   audiostart id=0      ts=1829960  bytesAt=0        (0.000s) t=+0ms
+   wordpos    id=17     ts=1834360  bytesAt=121000   (5.488s) t=+0ms
+   done       id=0      ts=1838760  bytesAt=200640   (9.099s) t=+0ms
+   wordpos    id=19     ts=1843160  bytesAt=200640   (9.099s) t=+15ms
+   wordpos    id=21     ts=1856580  bytesAt=200640   (9.099s) t=+15ms
+   wordpos    id=23     ts=1869780  bytesAt=200640   (9.099s) t=+15ms
+   wordpos    id=25     ts=1882980  bytesAt=200640   (9.099s) t=+15ms
+   wordpos    id=27     ts=1891780  bytesAt=200640   (9.099s) t=+15ms
+   wordpos    id=29     ts=1909380  bytesAt=200640   (9.099s) t=+15ms
+   wordpos    id=31     ts=1922580  bytesAt=200640   (9.099s) t=+31ms
+   wordpos    id=33     ts=1935780  bytesAt=200640   (9.099s) t=+31ms
+   wordpos    id=35     ts=1949200  bytesAt=200640   (9.099s) t=+31ms
+   wordpos    id=39     ts=1958000  bytesAt=200640   (9.099s) t=+31ms
+   wordpos    id=42     ts=1962400  bytesAt=200640   (9.099s) t=+31ms
+   wordpos    id=46     ts=1962400  bytesAt=200640   (9.099s) t=+31ms
+   wordpos    id=69     ts=1966800  bytesAt=200640   (9.099s) t=+31ms
+   wordpos    id=72     ts=1984400  bytesAt=200640   (9.099s) t=+47ms
+   wordpos    id=76     ts=1984400  bytesAt=200640   (9.099s) t=+47ms
+   wordpos    id=81     ts=2010800  bytesAt=200640   (9.099s) t=+47ms
+   wordpos    id=86     ts=2019600  bytesAt=200640   (9.099s) t=+47ms
+   audiostop  id=0      ts=2032800  bytesAt=200640   (9.099s) t=+47ms
+   wrote C:\Users\joshk\OneDrive\dev\sapivoice\samples\probe\49_tag_set_number.wav
+SPEAK[50_spelling]: hr=0x00000000 total=31ms firstAudio=+0ms bytes=89760 (4.07s audio, rtf=131.3x) chunks=9 min=1760 max=11000
+   started    id=0      ts=2032800  bytesAt=0        (0.000s) t=+0ms
+   audiostart id=0      ts=2032800  bytesAt=0        (0.000s) t=+0ms
+   wordpos    id=0      ts=2037200  bytesAt=44000    (1.995s) t=+0ms
+   done       id=0      ts=2037200  bytesAt=89760    (4.071s) t=+0ms
+   wordpos    id=2      ts=2041820  bytesAt=89760    (4.071s) t=+0ms
+   wordpos    id=4      ts=2046220  bytesAt=89760    (4.071s) t=+15ms
+   wordpos    id=6      ts=2050620  bytesAt=89760    (4.071s) t=+15ms
+   wordpos    id=9      ts=2055020  bytesAt=89760    (4.071s) t=+15ms
+   wordpos    id=11     ts=2059420  bytesAt=89760    (4.071s) t=+15ms
+   wordpos    id=13     ts=2063820  bytesAt=89760    (4.071s) t=+15ms
+   wordpos    id=15     ts=2072620  bytesAt=89760    (4.071s) t=+15ms
+   wordpos    id=18     ts=2077020  bytesAt=89760    (4.071s) t=+15ms
+   wordpos    id=20     ts=2081420  bytesAt=89760    (4.071s) t=+15ms
+   wordpos    id=22     ts=2085820  bytesAt=89760    (4.071s) t=+15ms
+   wordpos    id=24     ts=2090220  bytesAt=89760    (4.071s) t=+15ms
+   wordpos    id=26     ts=2094620  bytesAt=89760    (4.071s) t=+15ms
+   wordpos    id=28     ts=2099020  bytesAt=89760    (4.071s) t=+15ms
+   wordpos    id=30     ts=2107820  bytesAt=89760    (4.071s) t=+15ms
+   audiostop  id=0      ts=2125420  bytesAt=89760    (4.071s) t=+31ms
+   wrote C:\Users\joshk\OneDrive\dev\sapivoice\samples\probe\50_spelling.wav
+SPEAK[51_unknown_tag]: hr=0x00000000 total=15ms firstAudio=+0ms bytes=109340 (4.96s audio, rtf=330.6x) chunks=10 min=10340 max=11000
+   started    id=0      ts=2125420  bytesAt=0        (0.000s) t=+0ms
+   audiostart id=0      ts=2125420  bytesAt=0        (0.000s) t=+0ms
+   wordpos    id=0      ts=2129820  bytesAt=11000    (0.499s) t=+0ms
+   wordpos    id=3      ts=2134220  bytesAt=44000    (1.995s) t=+0ms
+   done       id=0      ts=2138840  bytesAt=109340   (4.959s) t=+0ms
+   wordpos    id=11     ts=2143240  bytesAt=109340   (4.959s) t=+0ms
+   wordpos    id=15     ts=2147640  bytesAt=109340   (4.959s) t=+0ms
+   wordpos    id=16     ts=2152040  bytesAt=109340   (4.959s) t=+0ms
+   wordpos    id=19     ts=2156440  bytesAt=109340   (4.959s) t=+0ms
+   wordpos    id=20     ts=2165240  bytesAt=109340   (4.959s) t=+0ms
+   wordpos    id=21     ts=2169640  bytesAt=109340   (4.959s) t=+0ms
+   wordpos    id=23     ts=2174040  bytesAt=109340   (4.959s) t=+0ms
+   wordpos    id=30     ts=2178440  bytesAt=109340   (4.959s) t=+0ms
+   wordpos    id=33     ts=2182840  bytesAt=109340   (4.959s) t=+0ms
+   wordpos    id=42     ts=2196040  bytesAt=109340   (4.959s) t=+15ms
+   wordpos    id=46     ts=2196040  bytesAt=109340   (4.959s) t=+15ms
+   wordpos    id=49     ts=2204840  bytesAt=109340   (4.959s) t=+15ms
+   wordpos    id=62     ts=2209240  bytesAt=109340   (4.959s) t=+15ms
+   wordpos    id=67     ts=2213640  bytesAt=109340   (4.959s) t=+15ms
+   wordpos    id=72     ts=2222440  bytesAt=109340   (4.959s) t=+15ms
+   audiostop  id=0      ts=2244660  bytesAt=109340   (4.959s) t=+15ms
+   wrote C:\Users\joshk\OneDrive\dev\sapivoice\samples\probe\51_unknown_tag.wav
+=== CANCEL TESTS ===
+  [engine] audio: sink requested cancel after 33000 bytes
+  [engine] abort: posting AUDRES
+  [engine] speak: cancel settled (BufferSemaphore acquired)
+cancel-from-sink: hr=0x00000001 total=16ms bytes=33000 (1.50s) chunks=3
+   started    id=0 bytesAt=0 t=+0ms
+   audiostart id=0 bytesAt=0 t=+0ms
+   wordpos    id=0 bytesAt=22000 t=+16ms
+   done       id=1 bytesAt=33000 t=+16ms
+   audiostop  id=0 bytesAt=33000 t=+16ms
+SPEAK[70_after_cancel]: hr=0x00000000 total=0ms firstAudio=+0ms bytes=58960 (2.67s audio, rtf=0.0x) chunks=6 min=3960 max=11000
+   started    id=0      ts=2249060  bytesAt=0        (0.000s) t=+0ms
+   audiostart id=0      ts=2249060  bytesAt=0        (0.000s) t=+0ms
+   wordpos    id=0      ts=2253460  bytesAt=22000    (0.998s) t=+0ms
+   done       id=0      ts=2253460  bytesAt=58960    (2.674s) t=+0ms
+   wordpos    id=7      ts=2262260  bytesAt=58960    (2.674s) t=+0ms
+   wordpos    id=13     ts=2271060  bytesAt=58960    (2.674s) t=+0ms
+   wordpos    id=19     ts=2275460  bytesAt=58960    (2.674s) t=+0ms
+   wordpos    id=25     ts=2284260  bytesAt=58960    (2.674s) t=+0ms
+   wordpos    id=35     ts=2297460  bytesAt=58960    (2.674s) t=+0ms
+   audiostop  id=0      ts=2310660  bytesAt=58960    (2.674s) t=+0ms
+   wrote C:\Users\joshk\OneDrive\dev\sapivoice\samples\probe\70_after_cancel.wav
+post-cancel utterance bytes=58960
+cancel-from-thread: hr=0x00000000 total=328ms bytes=1405140 (63.73s) chunks=128
+   started    id=0 bytesAt=0 t=+0ms
+   audiostart id=0 bytesAt=0 t=+0ms
+   wordpos    id=0 bytesAt=11000 t=+16ms
+   wordpos    id=5 bytesAt=55000 t=+16ms
+   wordpos    id=8 bytesAt=99000 t=+16ms
+   wordpos    id=17 bytesAt=165000 t=+16ms
+   wordpos    id=24 bytesAt=209000 t=+16ms
+   wordpos    id=26 bytesAt=253000 t=+16ms
+   wordpos    id=29 bytesAt=297000 t=+16ms
+   wordpos    id=31 bytesAt=297000 t=+16ms
+   wordpos    id=36 bytesAt=385000 t=+16ms
+   wordpos    id=46 bytesAt=550000 t=+16ms
+   wordpos    id=51 bytesAt=583000 t=+16ms
+   wordpos    id=54 bytesAt=583000 t=+16ms
+   wordpos    id=59 bytesAt=693000 t=+16ms
+   done       id=0 bytesAt=1405140 t=+31ms
+   wordpos    id=1095 bytesAt=1405140 t=+328ms
+   wordpos    id=1099 bytesAt=1405140 t=+328ms
+   wordpos    id=1105 bytesAt=1405140 t=+328ms
+   audiostop  id=0 bytesAt=1405140 t=+328ms
+SPEAK[71_after_thread_cancel]: hr=0x00000000 total=16ms firstAudio=+0ms bytes=75680 (3.43s audio, rtf=214.5x) chunks=7 min=9680 max=11000
+   started    id=0      ts=3721960  bytesAt=0        (0.000s) t=+0ms
+   audiostart id=0      ts=3721960  bytesAt=0        (0.000s) t=+0ms
+   wordpos    id=0      ts=3726360  bytesAt=44000    (1.995s) t=+0ms
+   done       id=0      ts=3726360  bytesAt=75680    (3.432s) t=+0ms
+   wordpos    id=4      ts=3730760  bytesAt=75680    (3.432s) t=+0ms
+   wordpos    id=7      ts=3730760  bytesAt=75680    (3.432s) t=+0ms
+   wordpos    id=13     ts=3739560  bytesAt=75680    (3.432s) t=+0ms
+   wordpos    id=19     ts=3748360  bytesAt=75680    (3.432s) t=+0ms
+   wordpos    id=25     ts=3752760  bytesAt=75680    (3.432s) t=+0ms
+   wordpos    id=27     ts=3752760  bytesAt=75680    (3.432s) t=+0ms
+   wordpos    id=34     ts=3761560  bytesAt=75680    (3.432s) t=+0ms
+   wordpos    id=39     ts=3770360  bytesAt=75680    (3.432s) t=+16ms
+   wordpos    id=47     ts=3774760  bytesAt=75680    (3.432s) t=+16ms
+   wordpos    id=53     ts=3788180  bytesAt=75680    (3.432s) t=+16ms
+   audiostop  id=0      ts=3805780  bytesAt=75680    (3.432s) t=+16ms
+   wrote C:\Users\joshk\OneDrive\dev\sapivoice\samples\probe\71_after_thread_cancel.wav
+post-cancel utterance bytes=75680
+SPEAK[72_after_idle_cancel]: hr=0x00000000 total=15ms firstAudio=+0ms bytes=56760 (2.57s audio, rtf=171.6x) chunks=6 min=1760 max=11000
+   started    id=0      ts=3805780  bytesAt=0        (0.000s) t=+0ms
+   audiostart id=0      ts=3805780  bytesAt=0        (0.000s) t=+0ms
+   wordpos    id=0      ts=3810180  bytesAt=11000    (0.499s) t=+0ms
+   done       id=0      ts=3810180  bytesAt=56760    (2.574s) t=+0ms
+   wordpos    id=11     ts=3823380  bytesAt=56760    (2.574s) t=+0ms
+   wordpos    id=17     ts=3827780  bytesAt=56760    (2.574s) t=+0ms
+   wordpos    id=22     ts=3832180  bytesAt=56760    (2.574s) t=+15ms
+   wordpos    id=26     ts=3836580  bytesAt=56760    (2.574s) t=+15ms
+   wordpos    id=29     ts=3840980  bytesAt=56760    (2.574s) t=+15ms
+   wordpos    id=33     ts=3849780  bytesAt=56760    (2.574s) t=+15ms
+   audiostop  id=0      ts=3862980  bytesAt=56760    (2.574s) t=+15ms
+   wrote C:\Users\joshk\OneDrive\dev\sapivoice\samples\probe\72_after_idle_cancel.wav
+=== TIMING ===
+SPEAK[60_short]: hr=0x00000000 total=0ms firstAudio=+0ms bytes=22440 (1.02s audio, rtf=0.0x) chunks=3 min=440 max=11000
+   started    id=0      ts=3862980  bytesAt=0        (0.000s) t=+0ms
+   audiostart id=0      ts=3862980  bytesAt=0        (0.000s) t=+0ms
+   done       id=0      ts=3862980  bytesAt=22440    (1.018s) t=+0ms
+   wordpos    id=0      ts=3867380  bytesAt=22440    (1.018s) t=+0ms
+   wordpos    id=2      ts=3871780  bytesAt=22440    (1.018s) t=+0ms
+   audiostop  id=0      ts=3885200  bytesAt=22440    (1.018s) t=+0ms
+   wrote C:\Users\joshk\OneDrive\dev\sapivoice\samples\probe\60_short.wav
+SPEAK[61_short]: hr=0x00000000 total=16ms firstAudio=+0ms bytes=25300 (1.15s audio, rtf=71.7x) chunks=3 min=3300 max=11000
+   started    id=0      ts=3885200  bytesAt=0        (0.000s) t=+0ms
+   audiostart id=0      ts=3885200  bytesAt=0        (0.000s) t=+0ms
+   done       id=0      ts=3885200  bytesAt=25300    (1.147s) t=+0ms
+   wordpos    id=0      ts=3889600  bytesAt=25300    (1.147s) t=+0ms
+   audiostop  id=0      ts=3911600  bytesAt=25300    (1.147s) t=+16ms
+   wrote C:\Users\joshk\OneDrive\dev\sapivoice\samples\probe\61_short.wav
+SPEAK[62_long]: hr=0x00000000 total=109ms firstAudio=+0ms bytes=505560 (22.93s audio, rtf=210.3x) chunks=46 min=10560 max=11000
+   started    id=0      ts=3911600  bytesAt=0        (0.000s) t=+0ms
+   audiostart id=0      ts=3911600  bytesAt=0        (0.000s) t=+0ms
+   wordpos    id=0      ts=3916000  bytesAt=11000    (0.499s) t=+0ms
+   wordpos    id=4      ts=3916000  bytesAt=11000    (0.499s) t=+0ms
+   wordpos    id=11     ts=3929200  bytesAt=143000   (6.485s) t=+0ms
+   wordpos    id=22     ts=3942400  bytesAt=275000   (12.472s) t=+0ms
+   wordpos    id=33     ts=3960000  bytesAt=451000   (20.454s) t=+0ms
+   wordpos    id=37     ts=3960000  bytesAt=451000   (20.454s) t=+0ms
+   done       id=0      ts=3960000  bytesAt=505560   (22.928s) t=+16ms
+   wordpos    id=39     ts=3964400  bytesAt=505560   (22.928s) t=+16ms
+   wordpos    id=48     ts=3973200  bytesAt=505560   (22.928s) t=+16ms
+   wordpos    id=57     ts=3982220  bytesAt=505560   (22.928s) t=+16ms
+   wordpos    id=60     ts=3986620  bytesAt=505560   (22.928s) t=+16ms
+   wordpos    id=70     ts=3999820  bytesAt=505560   (22.928s) t=+16ms
+   wordpos    id=73     ts=4004220  bytesAt=505560   (22.928s) t=+16ms
+   wordpos    id=79     ts=4013020  bytesAt=505560   (22.928s) t=+16ms
+   wordpos    id=88     ts=4026220  bytesAt=505560   (22.928s) t=+16ms
+   wordpos    id=98     ts=4039420  bytesAt=505560   (22.928s) t=+31ms
+   wordpos    id=100    ts=4052620  bytesAt=505560   (22.928s) t=+31ms
+   wordpos    id=110    ts=4070220  bytesAt=505560   (22.928s) t=+31ms
+   wordpos    id=114    ts=4070220  bytesAt=505560   (22.928s) t=+31ms
+   wordpos    id=118    ts=4074620  bytesAt=505560   (22.928s) t=+31ms
+   wordpos    id=123    ts=4083640  bytesAt=505560   (22.928s) t=+31ms
+   wordpos    id=126    ts=4088040  bytesAt=505560   (22.928s) t=+31ms
+   wordpos    id=133    ts=4096840  bytesAt=505560   (22.928s) t=+31ms
+   wordpos    id=141    ts=4110040  bytesAt=505560   (22.928s) t=+47ms
+   wordpos    id=145    ts=4110040  bytesAt=505560   (22.928s) t=+47ms
+   wordpos    id=153    ts=4118840  bytesAt=505560   (22.928s) t=+47ms
+   wordpos    id=157    ts=4140840  bytesAt=505560   (22.928s) t=+47ms
+   wordpos    id=166    ts=4149640  bytesAt=505560   (22.928s) t=+47ms
+   wordpos    id=169    ts=4154040  bytesAt=505560   (22.928s) t=+47ms
+   wordpos    id=174    ts=4180660  bytesAt=505560   (22.928s) t=+62ms
+   wordpos    id=179    ts=4189460  bytesAt=505560   (22.928s) t=+62ms
+   wordpos    id=181    ts=4189460  bytesAt=505560   (22.928s) t=+62ms
+   wordpos    id=186    ts=4198260  bytesAt=505560   (22.928s) t=+62ms
+   wordpos    id=190    ts=4198260  bytesAt=505560   (22.928s) t=+62ms
+   wordpos    id=192    ts=4202660  bytesAt=505560   (22.928s) t=+62ms
+   wordpos    id=199    ts=4211460  bytesAt=505560   (22.928s) t=+62ms
+   wordpos    id=204    ts=4220260  bytesAt=505560   (22.928s) t=+62ms
+   wordpos    id=206    ts=4237860  bytesAt=505560   (22.928s) t=+62ms
+   wordpos    id=211    ts=4242260  bytesAt=505560   (22.928s) t=+78ms
+   wordpos    id=221    ts=4251060  bytesAt=505560   (22.928s) t=+78ms
+   wordpos    id=228    ts=4264260  bytesAt=505560   (22.928s) t=+78ms
+   wordpos    id=231    ts=4268660  bytesAt=505560   (22.928s) t=+78ms
+   wordpos    id=239    ts=4273280  bytesAt=505560   (22.928s) t=+78ms
+   wordpos    id=243    ts=4277680  bytesAt=505560   (22.928s) t=+78ms
+   wordpos    id=248    ts=4290880  bytesAt=505560   (22.928s) t=+78ms
+   wordpos    id=252    ts=4295280  bytesAt=505560   (22.928s) t=+78ms
+   wordpos    id=259    ts=4299680  bytesAt=505560   (22.928s) t=+78ms
+   wordpos    id=271    ts=4312880  bytesAt=505560   (22.928s) t=+94ms
+   wordpos    id=273    ts=4312880  bytesAt=505560   (22.928s) t=+94ms
+   wordpos    id=280    ts=4321680  bytesAt=505560   (22.928s) t=+94ms
+   wordpos    id=288    ts=4330480  bytesAt=505560   (22.928s) t=+94ms
+   wordpos    id=291    ts=4339280  bytesAt=505560   (22.928s) t=+94ms
+   wordpos    id=297    ts=4348080  bytesAt=505560   (22.928s) t=+94ms
+   wordpos    id=301    ts=4352480  bytesAt=505560   (22.928s) t=+94ms
+   wordpos    id=304    ts=4352480  bytesAt=505560   (22.928s) t=+94ms
+   wordpos    id=309    ts=4361280  bytesAt=505560   (22.928s) t=+94ms
+   wordpos    id=311    ts=4361280  bytesAt=505560   (22.928s) t=+94ms
+   wordpos    id=322    ts=4370300  bytesAt=505560   (22.928s) t=+94ms
+   wordpos    id=329    ts=4379100  bytesAt=505560   (22.928s) t=+109ms
+   wordpos    id=332    ts=4383500  bytesAt=505560   (22.928s) t=+109ms
+   wordpos    id=342    ts=4396700  bytesAt=505560   (22.928s) t=+109ms
+   wordpos    id=348    ts=4405500  bytesAt=505560   (22.928s) t=+109ms
+   audiostop  id=0      ts=4427500  bytesAt=505560   (22.928s) t=+109ms
+   wrote C:\Users\joshk\OneDrive\dev\sapivoice\samples\probe\62_long.wav
+SPEAK[63_empty]: hr=0x00000000 total=0ms firstAudio=+0ms bytes=0 (0.00s audio, rtf=0.0x) chunks=0 min=0 max=0
+   started    id=0      ts=4427500  bytesAt=0        (0.000s) t=+0ms
+   done       id=0      ts=4427500  bytesAt=0        (0.000s) t=+0ms
+   audiostop  id=0      ts=4427500  bytesAt=0        (0.000s) t=+0ms
+SPEAK[64_spaces]: hr=0x00000000 total=0ms firstAudio=+0ms bytes=0 (0.00s audio, rtf=0.0x) chunks=0 min=0 max=0
+   started    id=0      ts=4427500  bytesAt=0        (0.000s) t=+0ms
+   done       id=0      ts=4427500  bytesAt=0        (0.000s) t=+0ms
+   audiostop  id=0      ts=4427500  bytesAt=0        (0.000s) t=+0ms
+SPEAK[65_long_word_marks]: hr=0x00000000 total=32ms firstAudio=+0ms bytes=102080 (4.63s audio, rtf=144.7x) chunks=10 min=3080 max=11000
+   started    id=0      ts=4427500  bytesAt=0        (0.000s) t=+0ms
+   audiostart id=0      ts=4427500  bytesAt=0        (0.000s) t=+0ms
+   mark       id=1      ts=4431900  bytesAt=11000    (0.499s) t=+0ms
+   wordpos    id=7      ts=4431900  bytesAt=11000    (0.499s) t=+0ms
+   mark       id=2      ts=4431900  bytesAt=11000    (0.499s) t=+0ms
+   wordpos    id=18     ts=4431900  bytesAt=11000    (0.499s) t=+0ms
+   done       id=0      ts=4436300  bytesAt=102080   (4.629s) t=+0ms
+   mark       id=3      ts=4440700  bytesAt=102080   (4.629s) t=+0ms
+   wordpos    id=31     ts=4440700  bytesAt=102080   (4.629s) t=+0ms
+   mark       id=4      ts=4449500  bytesAt=102080   (4.629s) t=+16ms
+   wordpos    id=44     ts=4449500  bytesAt=102080   (4.629s) t=+16ms
+   mark       id=5      ts=4458300  bytesAt=102080   (4.629s) t=+16ms
+   wordpos    id=55     ts=4458300  bytesAt=102080   (4.629s) t=+16ms
+   mark       id=6      ts=4467320  bytesAt=102080   (4.629s) t=+16ms
+   wordpos    id=68     ts=4467320  bytesAt=102080   (4.629s) t=+16ms
+   mark       id=7      ts=4476120  bytesAt=102080   (4.629s) t=+16ms
+   wordpos    id=80     ts=4476120  bytesAt=102080   (4.629s) t=+16ms
+   mark       id=8      ts=4476120  bytesAt=102080   (4.629s) t=+16ms
+   wordpos    id=91     ts=4476120  bytesAt=102080   (4.629s) t=+16ms
+   mark       id=9      ts=4484920  bytesAt=102080   (4.629s) t=+16ms
+   wordpos    id=103    ts=4484920  bytesAt=102080   (4.629s) t=+16ms
+   mark       id=10     ts=4493720  bytesAt=102080   (4.629s) t=+16ms
+   wordpos    id=106    ts=4493720  bytesAt=102080   (4.629s) t=+16ms
+   wordpos    id=116    ts=4493720  bytesAt=102080   (4.629s) t=+16ms
+   mark       id=11     ts=4498120  bytesAt=102080   (4.629s) t=+16ms
+   wordpos    id=128    ts=4498120  bytesAt=102080   (4.629s) t=+16ms
+   mark       id=12     ts=4502520  bytesAt=102080   (4.629s) t=+16ms
+   wordpos    id=141    ts=4502520  bytesAt=102080   (4.629s) t=+16ms
+   mark       id=13     ts=4506920  bytesAt=102080   (4.629s) t=+16ms
+   wordpos    id=152    ts=4506920  bytesAt=102080   (4.629s) t=+16ms
+   wordpos    id=158    ts=4520120  bytesAt=102080   (4.629s) t=+32ms
+   audiostop  id=0      ts=4533320  bytesAt=102080   (4.629s) t=+32ms
+   wrote C:\Users\joshk\OneDrive\dev\sapivoice\samples\probe\65_long_word_marks.wav
+STATE[final]: gender=2 pitch=90 speed=200 volume=255 bright=8 number=0 modes=[1 0 0 1 0 0 0] version=1.0.225
+  [engine] stop: posting WM_QUIT to engine
+  [engine] stop: engine acknowledged exit (safe_to_exit=1)
+engine process still running after stop: no
+PROBE COMPLETE

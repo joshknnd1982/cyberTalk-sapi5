@@ -1,0 +1,20 @@
+SAPI test (64-bit)
+voice: CyberTalk Male (vendor=Panasonic gender=Male lang=409)
+        id=HKEY_CURRENT_USER\Software\Microsoft\Speech\Voices\Tokens\CyberTalkTest0
+  [CyberTalk_Male/default] wrote C:\Users\joshk\OneDrive\dev\sapivoice\samples\sapi_x64\sapi_CyberTalk_Male_default.wav in 62 ms
+  [CyberTalk_Male/rate_plus5] wrote C:\Users\joshk\OneDrive\dev\sapivoice\samples\sapi_x64\sapi_CyberTalk_Male_rate_plus5.wav in 47 ms
+  [CyberTalk_Male/rate_plus10] wrote C:\Users\joshk\OneDrive\dev\sapivoice\samples\sapi_x64\sapi_CyberTalk_Male_rate_plus10.wav in 31 ms
+  [CyberTalk_Male/rate_minus5] wrote C:\Users\joshk\OneDrive\dev\sapivoice\samples\sapi_x64\sapi_CyberTalk_Male_rate_minus5.wav in 109 ms
+  [CyberTalk_Male/volume_50] wrote C:\Users\joshk\OneDrive\dev\sapivoice\samples\sapi_x64\sapi_CyberTalk_Male_volume_50.wav in 63 ms
+  [CyberTalk_Male/cancel] purge+speak after 300 ms -> 0x00000000 (returned in 1407 ms)
+  [CyberTalk_Male/cancel] wrote C:\Users\joshk\OneDrive\dev\sapivoice\samples\sapi_x64\sapi_CyberTalk_Male_cancel.wav in 1734 ms
+  [CyberTalk_Male/unicode] wrote C:\Users\joshk\OneDrive\dev\sapivoice\samples\sapi_x64\sapi_CyberTalk_Male_unicode.wav in 32 ms
+  [CyberTalk_Male/xml] wrote C:\Users\joshk\OneDrive\dev\sapivoice\samples\sapi_x64\sapi_CyberTalk_Male_xml.wav in 31 ms
+voice: CyberTalk Female (vendor=Panasonic gender=Female lang=409)
+        id=HKEY_CURRENT_USER\Software\Microsoft\Speech\Voices\Tokens\CyberTalkTest1
+  [CyberTalk_Female/default] wrote C:\Users\joshk\OneDrive\dev\sapivoice\samples\sapi_x64\sapi_CyberTalk_Female_default.wav in 47 ms
+voice: CyberTalk Custom Voice (vendor=Panasonic gender=Male lang=409)
+        id=HKEY_CURRENT_USER\Software\Microsoft\Speech\Voices\Tokens\CyberTalkTest2
+  [CyberTalk_Custom_Voice/default] wrote C:\Users\joshk\OneDrive\dev\sapivoice\samples\sapi_x64\sapi_CyberTalk_Custom_Voice_default.wav in 62 ms
+tested 3 CyberTalk voice(s)
+exiting
