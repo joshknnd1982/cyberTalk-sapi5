@@ -19,7 +19,9 @@ The SAPI5 wrapper, the CyberTalk host, the configuration utility, the
 reverse-engineering notes and the installer were written for this project by
 joshknnd1982 with help from Claude.  The COM plumbing (`com.hpp`,
 `registry.hpp`, `ISpDataKeyImpl`) was adapted from the BestSpeech SAPI5
-wrapper in the same repository family.
+wrapper in the same repository family.  That wrapper is the work of Gozaltech
+(<https://github.com/gozaltech/BstSpeech-sapi>); [NOTICE.md](NOTICE.md) lists
+the files that came from it, which the MIT license does not cover.
 
 ## Third-party code
 

@@ -324,6 +324,8 @@ Test tools (also installed under `tools\` and available in `prebuilt\tools`):
 ## Credits and license
 
 See [CREDITS.md](CREDITS.md) and [LICENSE](LICENSE).  The wrapper is MIT
-licensed; the CyberTalk engine binaries remain the property of their
+licensed, except the SAPI 5 COM files that were adapted from Gozaltech's
+BestSpeech wrapper; the CyberTalk engine binaries remain the property of their
 copyright holders and are preserved here because the software is no longer
-obtainable anywhere else.
+obtainable anywhere else.  [NOTICE.md](NOTICE.md) lists what the MIT license
+does not cover.
